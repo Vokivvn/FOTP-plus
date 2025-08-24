@@ -234,3 +234,277 @@ country_event = { #The Passing of Nikolay
 	}
 }
 
+country_event = { #The Passing of Nikolay
+	id = RUS.30
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.30"}
+	title = RUS.30.t
+	desc = RUS.30.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.30.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			UKD = {
+				transfer_state = 192
+				transfer_state = 193
+				transfer_state = 196
+				transfer_state = 197
+				transfer_state = 200
+				transfer_state = 202
+				transfer_state = 203
+				transfer_state = 221
+				transfer_state = 225
+				transfer_state = 226
+				transfer_state = 227
+				transfer_state = 228
+				transfer_state = 259
+			}
+			SOV = {
+				country_event = { id = RUS.31 days = 0 }
+			}
+		}
+	}
+}
+
+country_event = { #The Passing of Nikolay
+	id = RUS.31
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.31"}
+	title = RUS.31.t
+	desc = RUS.31.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.31.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			TAU = {
+				transfer_state = 137
+			}
+			SOV = {
+				country_event = { id = RUS.32 days = 0 }
+			}
+		}
+	}
+}
+
+country_event = { #The Passing of Nikolay
+	id = RUS.32
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.32"}
+	title = RUS.32.t
+	desc = RUS.32.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.32.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			DON = {
+				transfer_state = 218
+				transfer_state = 238
+				transfer_state = 245
+			}
+			SOV = {
+				country_event = { id = RUS.33 days = 0 }
+			}
+		}
+	}
+}
+
+country_event = { #The Passing of Nikolay
+	id = RUS.33
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.33"}
+	title = RUS.33.t
+	desc = RUS.33.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.33.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			KUB = {
+				transfer_state = 234
+			}
+			SOV = {
+				country_event = { id = RUS.34 days = 0 }
+			}
+		}
+	}
+}
+
+country_event = { #The Passing of Nikolay
+	id = RUS.34
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.34"}
+	title = RUS.34.t
+	desc = RUS.34.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.34.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			TCS = {
+				transfer_state = 229
+				transfer_state = 230
+				transfer_state = 231
+			}
+			SOV = {
+				country_event = { id = RUS.35 days = 0 }
+			}
+		}
+	}
+}
+
+country_event = { #The Passing of Nikolay
+	id = RUS.35
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.35"}
+	title = RUS.35.t
+	desc = RUS.35.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.35.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			DAG = {
+				transfer_state = 232
+				transfer_state = 233
+			}
+			SOV = {
+				country_event = { id = RUS.36 days = 0 }
+			}
+		}
+	}
+}
+
+country_event = { #The Passing of Nikolay
+	id = RUS.36
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.36"}
+	title = RUS.36.t
+	desc = RUS.36.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.36.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			STV = {
+				transfer_state = 235
+			}
+			SOV = {
+				country_event = { id = RUS.37 days = 0 }
+			}
+		}
+	}
+}
+
+country_event = { #The Passing of Nikolay
+	id = RUS.37
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.37"}
+	title = RUS.37.t
+	desc = RUS.37.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.37.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			TER = {
+				transfer_state = 1002
+			}
+			SOV = {
+				country_event = { id = RUS.38 days = 0 }
+			}
+		}
+	}
+}
+
+country_event = { #The Passing of Nikolay
+	id = RUS.38
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.38"}
+	title = RUS.38.t
+	desc = RUS.38.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.38.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			SOV = {
+				declare_war_on = {
+					target = UKD
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = TAU
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = DON
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = KUB
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = TCS
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = DAG
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = TER
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = STV
+					type = annex_everything
+				}
+				end_puppet = PGG
+			}
+			PER = {
+				leave_faction = yes
+			}
+			SAU = {
+				leave_faction = yes
+			}
+			EGY = {
+				leave_faction = yes
+			}
+			PGG = {
+				leave_faction = yes
+				set_cosmetic_tag = PGG_free
+			}
+		}
+	}
+}

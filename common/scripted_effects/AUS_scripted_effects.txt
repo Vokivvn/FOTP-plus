@@ -1,0 +1,5 @@
+###Commission
+AUS_proposal_1 = {
+	set_country_flag = proposal_1
+	country_event = { id = RUS.1 days = 12 }
+}

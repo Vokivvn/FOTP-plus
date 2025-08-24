@@ -33,8 +33,12 @@ CZE = {
 	color_ui = rgb { 108 146 150 }
 }
 BOS = {	
-	color = rgb { 182 189 142 }
-	color_ui = rgb { 182 189 142 }
+	color = rgb { 160 165 168 }
+	color_ui = rgb { 119 127 130 }
+}
+BAN = {	
+	color = rgb { 163 147 113 }
+	color_ui = rgb { 141 128 117 }
 }
 POL = {
 	color = rgb { 130 85 85 } # { 150 96 96 }
@@ -169,8 +173,8 @@ PAT = {
 	color_ui = rgb { 156 93 82 }
 }
 TAU = {
-	color = rgb { 82 114 84 }
-	color_ui = rgb { 72 97 104 }
+	color = rgb { 122 77 68 }
+	color_ui = rgb { 122 77 68 }
 }
 BHU = {
 	color = rgb { 117 115 110 }
@@ -444,8 +448,8 @@ ICE = {
 }
 
 UKD = {
-	color = rgb { 94 130 90 }
-	color_ui =rgb { 94 130 90 }
+	color = rgb { 127 47 36 }
+	color_ui =rgb { 127 47 36 }
 }
 
 UKR = {
@@ -914,6 +918,36 @@ EES = { # Eastern Blocc
 WLM = {
 	color = rgb { 81 111 145 }
 	color_ui = rgb { 50 80 115 }
+}
+
+DON = {
+	color = rgb { 150 126 75 }
+	color_ui = rgb { 150 126 75 }
+}
+
+KUB = {
+	color = rgb { 131 64 150 }
+	color_ui = rgb { 131 64 150 }
+}
+
+STV = {
+	color = rgb { 94 100 150 }
+	color_ui = rgb { 94 100 150 }
+}
+
+DAG = {
+	color = rgb { 90 145 105 }
+	color_ui = rgb { 90 145 105 }
+}
+
+TER = {
+	color = rgb { 45 135 193 }
+	color_ui = rgb { 45 135 193 }
+}
+
+TCS = {
+	color = rgb { 168 82 88 }
+	color_ui = rgb { 168 82 88 }
 }
 
 D01 = {

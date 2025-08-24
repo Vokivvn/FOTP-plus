@@ -2,6 +2,8 @@
 
 set_variable = { country_infamy = 13 } 
 
+OOB = "SOV_1936"
+
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.8
@@ -76,14 +78,6 @@ if = {
 		autonomous_state = autonomy_satellite
 	}
 	set_autonomy = {
-		target = UKD
-		autonomous_state = autonomy_rus_dutchy
-	}
-	set_autonomy = {
-		target = TAU
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
 		target = PGG
 		autonomous_state = autonomy_satellite
 	}
@@ -103,8 +97,6 @@ if = {
 		puppet = PER
 		puppet = SOM
 		puppet = ZAN
-		puppet = UKD
-		puppet = TAU
 		puppet = PGG
 		puppet = BKH
 		puppet = KHI
@@ -229,8 +221,6 @@ add_to_faction = SOM
 add_to_faction = ZAN
 add_to_faction = KHI
 add_to_faction = BKH
-add_to_faction = UKD
-add_to_faction = TAU
 add_to_faction = PER
 add_to_faction = PGG
 add_to_faction = SAU

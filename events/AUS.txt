@@ -1,4 +1,5 @@
 ﻿add_namespace = AUS
+add_namespace = commission
 
 country_event = { #intro
 	id = AUS.0
@@ -10,5 +11,311 @@ country_event = { #intro
 	
 	option = {
 		name = AUS.0.a
+	}
+}
+
+country_event = { #a walk in Wien
+	id = AUS.1
+	title = AUS.1.t
+	desc = AUS.1.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.1.a
+	}
+}
+
+country_event = { #intro
+	id = commission.1
+	title = commission.1.t
+	desc = commission.1.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = commission.1.a
+		set_country_flag = Austria_Commission
+		set_global_flag = Commission
+	}
+}
+
+country_event = { #intro
+	id = AUS.39
+	title = AUS.39.t
+	desc = AUS.39.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.39.a
+		hidden_effect = {
+			set_politics = {
+				ruling_party = ultranationalism
+			}
+		}
+	}
+}
+
+country_event = { #intro
+	id = AUS.40
+	title = AUS.40.t
+	desc = AUS.40.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.40.a
+		hidden_effect = {
+		create_faction = "Salzburg Front"
+		set_country_flag = AUS_salzburg_front
+		}
+	}
+}
+
+country_event = { #intro
+	id = AUS.60
+	title = AUS.60.t
+	desc = AUS.60.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.60.a
+		hidden_effect = {
+			country_event = { id = AUS.65 days = 70 }
+		}
+	}
+}
+
+country_event = { #intro
+	id = AUS.65
+	title = AUS.65.t
+	desc = AUS.65.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.65.a
+		hidden_effect = {
+			country_event = { id = AUS.70 days = 80 }
+		}
+	}
+}
+
+country_event = { #intro
+	id = AUS.70
+	title = AUS.70.t
+	desc = AUS.70.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.70.a
+		hidden_effect = {
+			load_focus_tree = AUS_Austrofascism
+		}
+	}
+}
+
+country_event = { #intro
+	id = AUS.41
+	title = AUS.41.t
+	desc = AUS.41.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.41.a
+		hidden_effect = {
+		create_faction = "Salzburg Front"
+		}
+	}
+}
+
+country_event = { #intro
+	id = commission.3
+	title = commission.3.t
+	desc = commission.3.desc
+	picture = GFX_report_event_AUS_invade_croatia
+
+	is_triggered_only = yes
+	
+	option = {
+		name = commission.3.a
+		hidden_effect = {
+			AUS = {
+				declare_war_on = {
+					target = CRO
+					type = annex_everything
+				}
+			}
+		}
+	}
+}
+
+country_event = { #intro
+	id = commission.4
+	title = commission.4.t
+	desc = commission.4.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = commission.4.a
+		hidden_effect = {
+			AUS = {
+				release_autonomy = {
+					target = CRO
+					autonomy_state = autonomy_satellite
+					freedom_level = 0.5
+				}
+			CRO = {
+				set_cosmetic_tag = CRO_kingdom
+				retire_country_leader = yes
+				set_politics = {
+					ruling_party = conservatism
+				}
+				create_country_leader = {
+					name = "Alexander III"
+					desc = "POLITICS_ALEXANDER_III_DESC"
+					picture = "Leader_CRO_Alexander_III.dds"
+					expire = "1965.1.1"
+					ideology = conservatism_subtype
+						traits = {
+					}
+				}
+				set_popularities = {
+					conservatism = 100
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #intro
+	id = commission.40
+	title = commission.40.t
+	desc = commission.40.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = commission.40.a
+		hidden_effect = {
+			AUS = {
+				release_autonomy = {
+					target = BOS
+					autonomy_state = autonomy_satellite
+					freedom_level = 0.5
+				}
+			}
+			BOS = {
+				transfer_state = 836
+				transfer_state = 999
+				set_politics = {
+					ruling_party = conservatism
+				}
+				set_popularities = {
+					conservatism = 100
+				}
+			}
+			country_event = commission.41 {days = 3}
+			}
+		}
+	}
+}
+
+country_event = { #intro
+	id = commission.41
+	title = commission.41.t
+	desc = commission.41.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = commission.41.a
+		hidden_effect = {
+			BAN = {
+				transfer_state = 764
+				transfer_state = 82
+			}
+			country_event = commission.42 {days = 3}
+			}
+		}
+	}
+}
+
+country_event = { #intro
+	id = commission.42
+	title = commission.42.t
+	desc = commission.42.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = commission.42.a
+		hidden_effect = {
+			HUN = {
+				transfer_state = 82
+				transfer_state = 83
+				transfer_state = 1001
+				transfer_state = 1000
+				}
+			}
+			country_event = commission.43 {days = 3}
+		}
+	}
+}
+
+country_event = { #intro
+	id = commission.43
+	title = commission.43.t
+	desc = commission.43.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = commission.43.a
+		hidden_effect = {
+			SLO = {
+				transfer_state = 664
+				}
+			}
+			country_event = commission.44 {days = 3}
+		}
+	}
+}
+
+country_event = { #intro
+	id = commission.44
+	title = commission.44.t
+	desc = commission.44.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = commission.44.a
+		hidden_effect = {
+			CRO = {
+				transfer_state = 835
+				}
+			}
+		}
 	}
 }

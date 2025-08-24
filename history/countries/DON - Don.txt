@@ -1,0 +1,23 @@
+﻿capital = 884
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1934.8.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	authoritarianism = 100
+}
+
+create_country_leader = {
+	name = "Pyotr Krasnov"
+	desc = "LEADER_DESC_Alauddin_Muhammad"
+	picture = "Portrait_Don_Pyotr_Krasnov.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		
+	}
+}

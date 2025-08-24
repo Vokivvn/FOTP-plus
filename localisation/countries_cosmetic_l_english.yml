@@ -372,3 +372,11 @@
  UKR_free_territory_ultranationalism:0 "Free Territory of Ukraine"
  UKR_free_territory_ultranationalism_DEF:0 "The Free Territory of Ukraine"
  UKR_free_territory_ultranationalism_ADJ:0 "Ukranian"
+ 
+  # Kingdom of Croatia
+ CRO_kingdom:0 "Kingdom of Croatia"
+ CRO_kingdom_DEF:0 "The Kingdom of Croatia"
+ 
+  # PGG
+ PGG_free:0 "Free State of Persiya"
+ PGG_free_DEF:0 "The Free State of Persiya"

@@ -1,73 +1,49 @@
 #intro tree
 shared_focus = {
-	id =  AUS_Shattered_Lands
-	icon = GFX_AUS_Shattered_Lands
+	id =  AUS_a_moravian_sunrise
+	icon = GFX_AUS_a_moravian_sunrise
 	cost = 4.00
 	
 	x = 6
 	y = 0
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		log = "[GetDateText]: [Root.GetName]: focus AUS_a_moravian_sunrise"
 		country_event = {
 			id = AUS.1
 		}
 	}
 }
 shared_focus = {
-	id =  AUS_Push_Polish_Claims
-	icon = GFX_AUS_Push_Polish_Claims
+	id =  AUS_the_bohemia_dilemma
+	icon = GFX_AUS_the_bohemia_dilemma
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_Shattered_Lands
+		focus = AUS_a_moravian_sunrise
 	}
 	
-	x = 4
+	x = 5
 	y = 1
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Push_Polish_Claims"
-		66 = {
-			add_claim_by = AUS
-		}
-		67 = {
-			add_claim_by = AUS
-		}
-		762 = {
-			add_claim_by = AUS
-		}
-		72 = {
-			add_claim_by = AUS
-		}
-		88 = {
-			add_claim_by = AUS
-		}
-		80 = {
-			add_claim_by = AUS
-		}
-		89 = {
-			add_claim_by = AUS
-		}
-		91 = {
-			add_claim_by = AUS
-		}
 	}
 }
 shared_focus = {
-	id =  AUS_Boost_Morale
-	icon = GFX_AUS_Boost_Army_Morale
+	id =  AUS_commission_woes
+	icon = GFX_AUS_commission_woes
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_Shattered_Lands
+		focus = AUS_a_moravian_sunrise
 	}
 	
-	x = 6
+	x = 7
 	y = 1
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Boost Morale"
+		log = "[GetDateText]: [Root.GetName]: focus AUS_commission_woes Morale"
 		swap_ideas = {
 			remove_idea = AUS_the_time_for_liberation
 			add_idea = AUS_the_time_for_liberation_1
@@ -75,48 +51,38 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id =  AUS_By_Imperial_Decree
-	icon = GFX_AUS_By_Imperial_Decree
+	id =  AUS_approach_the_subject
+	icon = GFX_AUS_approach_the_subject
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_Shattered_Lands
+		focus = AUS_the_bohemia_dilemma
 	}
 	
-	x = 8
-	y = 1
+	x = 4
+	y = 2
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_By_Imperial_Decree"
+		log = "[GetDateText]: [Root.GetName]: focus AUS_approach_the_subject"
 		country_event = {
 			id = AUS.2
 		}
 	}
 }
 shared_focus = {
-	id =  AUS_Reclaim_Galicia_Lodomeria
-	icon = GFX_AUS_Polish_War
+	id =  AUS_pfrimers_gamble
+	icon = GFX_AUS_pfrimers_gamble
 	cost = 2.00
 
 	prerequisite = {
-		focus = AUS_Push_Polish_Claims
-	}
-	prerequisite = {
-		focus = AUS_Boost_Morale
-	}
-	prerequisite = {
-		focus = AUS_By_Imperial_Decree
+		focus = AUS_commission_woes
 	}
 	
-	x = 6
+	x = 8
 	y = 2
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Reclaim_Galicia_Lodomeria"
-		declare_war_on = {
-			target = POL
-			type = take_claimed_state
-		}
+		log = "[GetDateText]: [Root.GetName]: focus AUS_pfrimers_gamble"
 		hidden_effect = {
 			news_event = {
 				id = newswar.1
@@ -126,44 +92,40 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id =  AUS_Bank_On_Success
-	icon = GFX_AUS_Bicolor_Over_Krakow
+	id =  AUS_concessions_to_the_nationalists
+	icon = GFX_AUS_concessions_to_the_nationalists
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_Reclaim_Galicia_Lodomeria
-	}
-
-	available = {
-		has_country_flag = AUS_galicia_victory_flag
-	}
-
-	bypass = {
-		has_country_flag = AUS_galicia_victory_flag
+		focus = AUS_approach_the_subject
 	}
 
 	mutually_exclusive = {
-		focus = AUS_Imperial_Identity
+		focus = AUS_keep_our_grip
+	}
+	
+	x = 3
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_concessions_to_the_nationalists"
+	}
+}
+shared_focus = {
+	id =  AUS_keep_our_grip
+	icon = GFX_AUS_keep_our_grip
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_approach_the_subject
+	}
+	
+	mutually_exclusive = {
+		focus = AUS_concessions_to_the_nationalists
 	}
 	
 	x = 5
 	y = 3
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Bank_On_Success"
-	}
-}
-shared_focus = {
-	id =  AUS_Pacify_Slovakia
-	icon = GFX_AUS_pacify_slovakia
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_Bank_On_Success
-	}
-	
-	x = 3
-	y = 4
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Pacify_Slovakia"
@@ -174,18 +136,20 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id =  AUS_Integrate_Polish_Lands
-	icon = GFX_AUS_reinegrate_polish_land
+	id =  AUS_a_victory_at_last
+	icon = GFX_AUS_a_victory_at_last
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_Bank_On_Success
+		focus = AUS_pfrimers_gamble
 	}
-	available = {
-		has_country_flag = AUS_galicia_victory_flag
+	
+	mutually_exclusive = {
+		focus = AUS_a_saddening_defeat
 	}
-	x = 5
-	y = 4
+	
+	x = 7
+	y = 3
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Integrate_Polish_Lands"
@@ -222,25 +186,30 @@ shared_focus = {
 			id = 6464
 			name = "Kattowitz"
 		}
+		country_event = {
+			id = AUS.60
+			days = 1
+		}
 	}
 }
 shared_focus = {
-	id =  AUS_Balkan_Focus
-	icon = GFX_AUS_Balkan_Direction
+	id =  AUS_a_saddening_defeat
+	icon = GFX_AUS_a_saddening_defeat
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_Pacify_Slovakia
-	}
-	prerequisite = {
-		focus = AUS_Integrate_Polish_Lands
+		focus = AUS_pfrimers_gamble
 	}
 	
-	x = 3
-	y = 5
+	mutually_exclusive = {
+		focus = AUS_a_victory_at_last
+	}
+	
+	x = 9
+	y = 3
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Balkan_Focus"
+		log = "[GetDateText]: [Root.GetName]: focus AUS_a_saddening_defeat"
 		country_event = {
 			id = AUS.4
 			hours = 12
@@ -290,16 +259,17 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id =  AUS_Deal_With_The_Devil
-	icon = GFX_AUS_deal_with_the_devil
+	id =  AUS_a_toast_in_prague
+	icon = GFX_AUS_a_toast_in_prague
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_Balkan_Focus
+		focus = AUS_concessions_to_the_nationalists
+		focus = AUS_keep_our_grip
 	}
 	
-	x = 3
-	y = 6
+	x = 4
+	y = 4
 	
 	completion_reward = { #dealing with Hungary
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Deal_With_The_Devil"
@@ -310,16 +280,17 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id =  AUS_Skirmish_With_Croatia
-	icon = GFX_AUS_test_titos_regime
+	id =  AUS_the_reichsrat_at_peace
+	icon = GFX_AUS_the_reichsrat_at_peace
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_Deal_With_The_Devil
+		focus = AUS_a_victory_at_last
+		focus = AUS_a_saddening_defeat
 	}
 	
-	x = 3
-	y = 7
+	x = 8
+	y = 4
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Skirmish_With_Croatia"
@@ -354,16 +325,19 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id =  AUS_Imperial_Ambitions_Continue #Uatum Ruina Imperii
-	icon = GFX_AUS_saved_from_fate
+	id =  AUS_let_us_commence
+	icon = GFX_AUS_let_us_commence
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_Skirmish_With_Croatia
+		focus = AUS_a_toast_in_prague
+	}
+	prerequisite = {
+		focus = AUS_the_reichsrat_at_peace
 	}
 	
-	x = 3
-	y = 8
+	x = 6
+	y = 5
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Imperial_Ambitions_Continue"
@@ -372,321 +346,10 @@ shared_focus = {
 			add_idea = AUS_the_revitalized_empire
 		}
 		hidden_effect = {
-			set_cosmetic_tag = AUS_new_empire
+			load_focus_tree = AUS_Monarchism
 		}
 	}
 }
-############################################################
-# FASCIST PATH
-shared_focus = {
-	id =  AUS_Imperial_Identity
-	icon = GFX_AUS_Our_Imperial_Identity
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_Reclaim_Galicia_Lodomeria
-	}
-
-	mutually_exclusive = {
-		focus = AUS_Bank_On_Success
-	}
-	
-	available = {
-		has_country_flag = AUS_lost_poland_war
-	}
-	
-	x = 7
-	y = 3
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Imperial_Identity"
-	}
-}
-shared_focus = {
-	id =  AUS_Fate_Of_The_Emperor
-	icon = GFX_AUS_Fate_of_the_king
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_Imperial_Identity
-	}
-	
-	x = 7
-	y = 4
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Fate_Of_The_Emperor"
-		country_event = { id = AUS.14 days = 1}
-	}
-}
-shared_focus = { #get rekt karlboos
-	id =  AUS_Abolish_The_Monarchy
-	icon = GFX_AUS_Abolish_the_Monarchy
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_Fate_Of_The_Emperor
-	}
-	
-	x = 7
-	y = 5
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Abolish_The_Monarchy"
-		country_event = { id = AUS.15 days = 1}
-	}
-}
-shared_focus = {
-	id =  AUS_The_Reality_Of_The_Right
-	icon = GFX_AUS_Reality_of_the_Right
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_Imperial_Identity
-	}
-	
-	x = 9
-	y = 4
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_The_Reality_Of_The_Right"
-	}
-}
-shared_focus = {
-	id =  AUS_Strength_In_Disunity
-	icon = GFX_AUS_strength_in_disunity
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_The_Reality_Of_The_Right
-	}
-	
-	x = 9
-	y = 5
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Strength_In_Disunity"
-
-	}
-}
-shared_focus = {
-	id =  AUS_A_New_Austria
-	icon = GFX_AUS_A_New_Austria
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_Abolish_The_Monarchy
-	}
-	prerequisite = {
-		focus = AUS_Strength_In_Disunity
-	}
-	
-	x = 8
-	y = 6
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_A_New_Austria"
-		#fasc general staff
-		add_popularity = {
-			ideology = conservatism
-			popularity = -0.15
-		}
-	}
-}
-shared_focus = {
-	id =  AUS_The_German_Identity
-	icon = GFX_AUS_the_german_identity
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_A_New_Austria
-	}
-
-	mutually_exclusive = {
-		focus = AUS_The_Austrian_Identity
-	}
-	
-	x = 7
-	y = 7
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_The_German_Identity"
-		set_politics = {
-			ruling_party = ultranationalism
-
-		}
-		add_popularity = {
-			ideology = ultranationalism
-			popularity = 0.1
-		}
-	}
-}
-shared_focus = {
-	id =  AUS_Purge_The_Opposition
-	icon = GFX_AUS_brown_terror
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_The_German_Identity
-	}
-	
-	x = 7
-	y = 8
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Purge_The_Opposition"
-		add_manpower = -20312
-		add_political_power = -50
-		add_popularity = {
-			ideology = progressivism
-			popularity = -0.05
-		}
-		add_popularity = {
-			ideology = authoritarianism
-			popularity = -0.05
-		}
-	}
-}
-shared_focus = {
-	id =  AUS_Eliminate_The_Protestors
-	icon = GFX_AUS_purge_monarchists
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_Purge_The_Opposition
-	}
-	
-	x = 5
-	y = 9
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Eliminate_The_Protestors"
-		add_popularity = {
-			ideology = conservatism
-			popularity = -0.10
-		}
-		country_event = { id = AUS.16 days = 1 }
-	}
-}
-shared_focus = {
-	id =  AUS_The_Brown_Terror
-	icon = GFX_AUS_The_Brown_Terror
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_Purge_The_Opposition
-	}
-	
-	x = 7
-	y = 9
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_The_Brown_Terror"
-		add_manpower = -10524
-	}
-}
-shared_focus = {
-	id =  AUS_A_Fateful_Reign
-	icon = GFX_AUS_fateful_reign
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_Eliminate_The_Protestors
-	}
-	prerequisite = {
-		focus = AUS_The_Brown_Terror
-	}
-	
-	x = 6
-	y = 10
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_A_Fateful_Reign"
-		#
-	}
-}
-shared_focus = {
-	id =  AUS_The_Austrian_Identity
-	icon = GFX_AUS_the_asutrian_identity
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_A_New_Austria
-	}
-
-	mutually_exclusive = {
-		focus = AUS_The_German_Identity
-	}
-	
-	x = 9
-	y = 7
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_The_Austrian_Identity"
-		set_politics = {
-			ruling_party = authoritarianism
-		}
-		add_popularity = {
-			ideology = authoritarianism
-			popularity = 0.1
-		}
-	}
-}
-shared_focus = {
-	id =  AUS_A_Reign_Of_Normalcy
-	icon = GFX_AUS_Reign_of_Normalcy
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_The_Austrian_Identity
-	}
-	
-	x = 9
-	y = 8
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_A_Reign_Of_Normalcy"
-		add_political_power = 50
-	}
-}
-shared_focus = {
-	id =  AUS_Catholic_Traditions
-	icon = GFX_AUS_Catholic_Tradition
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_The_Austrian_Identity
-	}
-	
-	x = 11
-	y = 8
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Catholic_Traditions"
-		add_stability = 0.05
-	}
-}
-shared_focus = {
-	id =  AUS_Front_Of_The_Forefathers
-	icon = GFX_AUS_front_of_our_forefathers
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_A_Reign_Of_Normalcy
-	}
-	prerequisite = {
-		focus = AUS_Catholic_Traditions
-	}
-	
-	x = 10
-	y = 9
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Front_Of_The_Forefathers"
-	}
-}
-
-
 #######
 ## BASED TRAD PEOPLE !!!
 #######

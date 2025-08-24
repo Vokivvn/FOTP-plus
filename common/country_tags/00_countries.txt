@@ -170,6 +170,11 @@ NSI = "countries/International North Sea.txt"
 VNZ = "countries/Venice.txt"
 RHD = "countries/Switzerland.txt"
 TLE = "countries/Switzerland.txt"
+TER = "countries/Terek.txt"
+DAG = "countries/Dagestan.txt"
+DON = "countries/Don.txt"
+KUB = "countries/Kuban.txt"
+STV = "countries/Stavropol.txt"
 
 ##INDIA##
 AFG = "countries/Afghanistan.txt"
@@ -219,6 +224,7 @@ SYR = "countries/Syria.txt"
 UAE = "countries/United Arab Emirates.txt"
 TRP	= "countries/Turkish Republic.txt"
 TUR = "countries/Turkey.txt"
+TCS = "countries/Transcaucasia.txt"
 
 ##NORTH AMERICA##
 BLZ = "countries/Belize.txt"

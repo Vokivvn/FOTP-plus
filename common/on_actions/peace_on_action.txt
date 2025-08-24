@@ -211,6 +211,20 @@ on_actions = {
 		} 
 	}
 	
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = CRO }
+					FROM = { tag = AUS }
+				}
+				AUS = {
+					country_event = { id = commission.4 days = 2 }
+				}
+			}
+		} 
+	}
+	
 	on_state_control_changed = {
 		effect = { 
 			if = {

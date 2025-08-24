@@ -92,9 +92,6 @@ add_to_faction = ITA
 add_to_faction = CAT
 add_to_faction = FEI
 add_to_faction = LBR
-add_to_faction = BRM
-add_to_faction = KAC
-add_to_faction = SHA
 add_to_faction = FEA
 add_to_faction = FNA
 

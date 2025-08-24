@@ -36,20 +36,20 @@
  POLITICS_Franz_Ferdinand_DESC:0 "Franz Ferdinand was never meant to rule the Empire. The succession simply happened to fall to him after the suicide of his cousin and the death of his father, pleasing Kaiser Franz Joseph I not one bit. Franz Joseph did everything he could to sabotage Franz Ferdinand, making him renounce his childrens' right to the throne and forcing him to keep his beloved wife away from the public eye. Franz Ferdinand would have had enough trouble ruling a scarred and disillusioned Austria without these crippling blows, and with them it was nigh-impossible. Still, he has managed to rule for two decades since his uncle's death, not an ignorably easy task for a monarch.\n\nHowever, Austria may finally be at its tipping point. Franz Ferdinand is an uncharismatic and unpopular monarch, and he faces much opposition. If he wants any chance of keeping his throne and preserving the ancient traditions of the Austrian Empire, he will have to take drastic action and regain some of the lost glory of Kaisers past."
 
  ##focuses
- AUS_Shattered_Lands:0 "Shattered Lands"
- AUS_Shattered_Lands_desc:0 ""
+ AUS_a_moravian_sunrise:0 "A Moravian Sunrise"
+ AUS_a_moravian_sunrise_desc:0 ""
 
- AUS_Push_Polish_Claims:0 "Push Polish Claims"
- AUS_Push_Polish_Claims_desc:0 ""
+ AUS_the_bohemia_dilemma:0 "The Bohemia Dilemma"
+ AUS_the_bohemia_dilemma_desc:0 ""
 
- AUS_Boost_Morale:0 "Boost Army Morale"
- AUS_Boost_Morale_desc:0 ""
+ AUS_commission_woes:0 "Commission Woes"
+ AUS_commission_woes_desc:0 ""
 
- AUS_By_Imperial_Decree:0 "By Imperial Decree"
- AUS_By_Imperial_Decree_desc:0 ""
+ AUS_approach_the_subject:0 "Approach the Subject"
+ AUS_approach_the_subject_desc:0 ""
 
- AUS_Reclaim_Galicia_Lodomeria:0 "Relclaim Polish Territory"
- AUS_Reclaim_Galicia_Lodomeria_desc:0 ""
+ AUS_pfrimers_gamble:0 "Pfrimer's Gamble"
+ AUS_pfrimers_gamble_desc:0 ""
 
  AUS_Bank_On_Success:0 "The Bicolor Over Krakau"
  AUS_Bank_On_Success_desc:0 ""
@@ -226,8 +226,8 @@
  AUS.0.desc:0 "pog"
  AUS.0.a:0 "ok"
 
- AUS.1.t:0 "Our Shattered Lands"
- AUS.1.desc:0 "pog"
+ AUS.1.t:0 "A Ride through Wien"
+ AUS.1.desc:0 "Kaiser Franz Ferdinand had gone on many drives through Wien. After all, it was the Imperial Capital. Day after day, he could recount what he saw: disgruntled workers, rowdy nationalists, men in suits who cared little for the state of things. But one thing he noticed for certain, was dread. The same dread of the last twenty years. He knew the people couldn't stand the humilation of Austria. He knew that was the reason so many turned to extremism. But what could be done about it?"
  AUS.1.a:0 "ok"
 
  AUS.2.t:0 "Franz Ferdinand's Decree"

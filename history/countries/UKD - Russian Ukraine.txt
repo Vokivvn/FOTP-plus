@@ -70,14 +70,14 @@ if = {
 }
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	authoritarianism = 100
+	socialism = 100
 }
 
 #create_country_leader = {
@@ -92,11 +92,11 @@ set_popularities = {
 #}
 
 create_country_leader = {
-	name = "Dmytro Doroshenko"
+	name = "Nikolai Avksentyev"
 	desc = "Leader_UKD_Dmitro_Doroshenko_desc"
-	picture = "Portrait_UKD_Dmitro_Doroshenko.dds"
+	picture = "Portrait_UKD_Nikolai_Avksentyev.dds"
 	expire = "1953.3.1"
-	ideology = authoritarianism_subtype
+	ideology = socialism_subtype
 	traits = {
 		
 	}
