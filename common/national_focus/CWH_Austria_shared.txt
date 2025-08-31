@@ -997,7 +997,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id =  AUS_demand_the_dalmatian_coast
+	id =  AUS_friends_around_the_world
 	icon = GFX_AUS_leave_the_demon_to_his_demons
 	cost = 4.00
 	
@@ -1035,7 +1035,7 @@ shared_focus = {
     y = 5
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_demand_the_dalmatian_coast"
+		log = "[GetDateText]: [Root.GetName]: focus AUS_friends_around_the_world"
 		if = {
 			limit = {
 				SER = {
@@ -1079,12 +1079,12 @@ shared_focus = {
 }
 
 shared_focus = {
-	id =  AUS_establish_the_venetian_economic_zone
+	id =  AUS_the_might_of_russia
 	icon = GFX_AUS_leave_the_demon_to_his_demons
 	cost = 4.00
 	
 	prerequisite = {
-		focus = AUS_demand_the_dalmatian_coast
+		focus = AUS_friends_around_the_world
 	}
 	available = {
 		owns_state = 103
@@ -1095,7 +1095,7 @@ shared_focus = {
     y = 6
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_establish_the_venetian_economic_zone"
+		log = "[GetDateText]: [Root.GetName]: focus AUS_the_might_of_russia"
 		country_event = {
 			id = FASH_AUS.15
 			days = 1
@@ -1104,19 +1104,19 @@ shared_focus = {
 }
 
 shared_focus = {
-	id =  AUS_control_the_venetian_market
+	id =  AUS_the_faith_of_the_andeans
 	icon = GFX_AUS_leave_the_demon_to_his_demons
 	cost = 4.00
 	
 	prerequisite = {
-		focus = AUS_establish_the_venetian_economic_zone
+		focus = AUS_the_might_of_russia
 	}
 	relative_position_id = AUS_ascension_of_the_standestaat
     x = 0
     y = 7
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_establish_the_venetian_economic_zone"
+		log = "[GetDateText]: [Root.GetName]: focus AUS_the_faith_of_the_andeans"
 		
 	}
 }

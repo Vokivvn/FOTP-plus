@@ -287,189 +287,6 @@ on_actions = {
 			}
 		} 
 	}
-	
-	on_capitulation = {
-		effect = { 
-			if = {
-				limit = {
-					FROM = {
-						tag = CRO
-					}
-					SER = {
-						has_war_with = CRO
-					}
-				}
-				CRO = {
-					country_event = { id = BKW.3 days = 2 }
-					annex_country = {
-						target = SER
-						transfer_troops = no
-					}
-				}
-			}
-		} 
-	}
-	
-	on_capitulation = {
-		effect = { 
-			if = {
-				limit = {
-					FROM = {
-						tag = SER
-					}
-					CRO = {
-						has_war_with = SER
-					}
-				}
-				SER = {
-					country_event = { id = BKW.2 days = 2 }
-					annex_country = {
-						target = CRO
-						transfer_troops = no
-					}
-				}
-			}
-		} 
-	}
-	
-	on_state_control_changed = {
-		effect = { 
-			if = {
-				limit = {
-					ROOT = { tag = HUN }
-					FROM = {
-						tag = CRO
-						AND = {
-							HUN = {
-								num_of_controlled_states > 3
-							}
-						}
-					}
-				}
-				HUN = {
-					country_event = { id = BKW.6 days = 2 }
-				}
-			}
-		} 
-	}
-	
-	on_state_control_changed = {
-		effect = { 
-			if = {
-				limit = {
-					ROOT = { tag = HUN }
-					FROM = {
-						tag = SER
-						AND = {
-							HUN = {
-								num_of_controlled_states > 3
-							}
-						}
-					}
-				}
-				HUN = {
-					country_event = { id = BKW.6 days = 2 }
-				}
-			}
-		} 
-	}
-	
-	on_state_control_changed = {
-		effect = { 
-			if = {
-				limit = {
-					FROM = {
-						tag = HUN
-						surrender_progress > 0.3
-					}
-					SER = {
-						has_war_with = HUN
-					}
-				}
-				SER = {
-					country_event = { id = BKW.7 days = 2 }
-				}
-			}
-		} 
-	}
-	
-	on_state_control_changed = {
-		effect = { 
-			if = {
-				limit = {
-					FROM = {
-						tag = HUN
-						surrender_progress > 0.3
-					}
-					CRO = {
-						has_war_with = HUN
-					}
-				}
-				CRO = {
-					country_event = { id = BKW.8 days = 2 }
-				}
-			}
-		} 
-	}
-	
-	on_state_control_changed = {
-		effect = { 
-			if = {
-				limit = {
-					ROOT = { tag = BUL }
-					FROM = {
-						tag = SER
-						AND = {
-							BUL = {
-								num_of_controlled_states > 3
-							}
-						}
-					}
-				}
-				BUL = {
-					country_event = { id = BKW.11 days = 2 }
-				}
-			}
-		} 
-	}
-	
-	on_state_control_changed = {
-		effect = { 
-			if = {
-				limit = {
-					FROM = {
-						tag = BUL
-						surrender_progress > 0.3
-					}
-					SER = {
-						has_war_with = BUL
-					}
-				}
-				SER = {
-					country_event = { id = BKW.12 days = 2 }
-				}
-			}
-		} 
-	}
-	
-	on_state_control_changed = {
-		effect = { 
-			if = {
-				limit = {
-					FROM = {
-						tag = BUL
-						surrender_progress > 0.3
-					}
-					CRO = {
-						has_war_with = BUL
-					}
-				}
-				CRO = {
-					country_event = { id = BKW.13 days = 2 }
-				}
-			}
-		} 
-	}
 
 	on_capitulation = { 
 		effect = { 
@@ -502,6 +319,48 @@ on_actions = {
 				}
 			}
 		}
+	}
+	
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = ITA }
+					FROM = { tag = AUS }
+				}
+				AUS = {
+					country_event = { id = AUS.80 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = FRA }
+					FROM = { tag = AUS }
+				}
+				AUS = {
+					country_event = { id = AUS.81 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = AUS }
+					FROM = { tag = ITA }
+				}
+				ITA = {
+					country_event = { id = ITA.81 days = 2 }
+				}
+			}
+		} 
 	}
 	
 }

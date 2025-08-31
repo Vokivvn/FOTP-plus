@@ -823,10 +823,6 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus ITA_clip_croatia"
-		create_wargoal = {
-			type = puppet_wargoal_focus
-			target = CRO
-		}
 	}
 }
 
@@ -842,10 +838,6 @@ shared_focus = {
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus ITA_relieve_albania"
-		create_wargoal = {
-			type = puppet_wargoal_focus
-			target = ALB
-		}
 	}
 }
 

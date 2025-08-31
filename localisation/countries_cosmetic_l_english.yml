@@ -380,3 +380,6 @@
   # PGG
  PGG_free:0 "Free State of Persiya"
  PGG_free_DEF:0 "The Free State of Persiya"
+ 
+ AUS_occupied:0 "Entente-Occupied Austria"
+ AUS_occupied_DEF:0 "The Entente Commission for the Austrian Territories"

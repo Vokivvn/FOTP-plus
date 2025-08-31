@@ -26,3 +26,14 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Corneliu Zelea Codreanu"
+	desc = "POLITICS_Corneliu_Zelea_Codreanu_DESC"
+	picture = "Portrait_ROM_Corneliu_Zelea_Codreanu.dds"
+	expire = "1965.1.1"
+	ideology = ultranationalism_subtype
+	traits = {
+		#
+	}
+}

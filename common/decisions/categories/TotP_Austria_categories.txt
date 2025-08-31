@@ -6,3 +6,11 @@ AUS_commission = {
 
 	priority = 0
 }
+AUS_commission_enforcement = {
+	visible_when_empty = no
+	allowed = {
+		original_tag = AUS
+	}
+
+	priority = 0
+}

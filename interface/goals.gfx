@@ -1952,6 +1952,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_AUS_the_bohemia_dilemma.dds"
 	}
 	SpriteType = { 
+		name = "GFX_AUS_approach_the_subject"
+		texturefile = "gfx/interface/goals/GFX_AUS_approach_the_subject.dds"
+	}
+	SpriteType = { 
 		name = "GFX_AUS_pfrimers_gamble"
 		texturefile = "gfx/interface/goals/GFX_AUS_pfrimers_gamble.dds"
 	}

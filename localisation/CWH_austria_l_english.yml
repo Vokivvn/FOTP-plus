@@ -134,6 +134,11 @@
  AUS_authoritarianism_party_long:0 "Landbund"
  AUS_ultranationalism_party:0 "Heimwehr"
  AUS_ultranationalism_party_long:0 "Heimwehr"
+ 
+ AUS_fatherland_front_authoritarianism_party:0 "VF"
+ AUS_fatherland_front_authoritarianism_party_long:0 "Vaterländische Front"
+ AUS_fatherland_front_ultranationalism_party:0 "VF"
+ AUS_fatherland_front_ultranationalism_party_long:0 "Vaterländische Front"
 
  # AustroFascists
  

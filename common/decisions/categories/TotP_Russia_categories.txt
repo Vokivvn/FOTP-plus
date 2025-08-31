@@ -33,3 +33,20 @@ SOV_classes_cat = {
 		base = 13
 	}
 }
+
+SOV_commission = {
+	visible_when_empty = no
+	allowed = {
+		original_tag = SOV
+	}
+
+	priority = 0
+}
+SOV_commission_enforcement = {
+	visible_when_empty = no
+	allowed = {
+		original_tag = SOV
+	}
+
+	priority = 0
+}

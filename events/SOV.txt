@@ -508,3 +508,31 @@ country_event = { #The Passing of Nikolay
 		}
 	}
 }
+
+country_event = { #The Passing of Nikolay
+	id = RUS.50
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.50"}
+	title = RUS.50.t
+	desc = RUS.50.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.50.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			SOV = {
+				declare_war_on = {
+					target = FRA
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = ITA
+					type = annex_everything
+				}
+			}
+		}
+	}
+}

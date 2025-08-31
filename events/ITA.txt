@@ -703,3 +703,49 @@ country_event = { #PPF bans all parties
 		}
 	}
 }
+
+country_event = { # Tie over Italy (BorderW)
+	id = ITA.81
+	title = ITA.81.t
+	desc = ITA.81.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.81.a
+		hidden_effect = {
+			ITA = {
+				release_autonomy = {
+					target = AUS
+					autonomy_state = autonomy_satellite
+					freedom_level = 0.5
+				}
+			}
+			AUS = {
+				set_cosmetic_tag = AUS_occupied
+				retire_country_leader = yes
+				set_politics = {
+					ruling_party = authoritarianism
+				}
+				create_country_leader = {
+					name = "Raffaele Cadorna Jr"
+					desc = "POLITICS_ALEXANDER_III_DESC"
+					picture = "Leader_CRO_Alexander_III.dds"
+					expire = "1965.1.1"
+					ideology = authoritarianism_subtype
+						traits = {
+					}
+				}
+				set_popularities = {
+					authoritarianism = 100
+					}
+				}
+			}
+			transfer_state = 160
+			transfer_state = 736
+			transfer_state = 846
+			transfer_state = 947
+		}
+	}
+}

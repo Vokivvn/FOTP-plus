@@ -12,6 +12,7 @@ state={
 			infrastructure = 6
 		}
 		add_core_of = SER
+		add_core_of = BAN
 		add_claim_by = HUN
 	}
 

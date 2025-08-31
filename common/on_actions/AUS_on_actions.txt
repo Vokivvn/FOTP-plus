@@ -1,0 +1,10 @@
+on_actions = {
+	on_startup = {
+	    effect = {
+	    	ENG = {
+	    		set_variable = { var = proposal_1_votes_for value = 0 }
+	    		set_variable = { var = proposal_1_votes_against value = 0 }
+	    	}
+		}
+	}
+}
