@@ -1,49 +1,49 @@
 #intro tree
 shared_focus = {
-	id =  AUS_a_moravian_sunrise
-	icon = GFX_AUS_a_moravian_sunrise
+	id =  AUS_the_heart_of_austria
+	icon = GFX_AUS_the_heart_of_austria
 	cost = 4.00
 	
 	x = 6
 	y = 0
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_a_moravian_sunrise"
+		log = "[GetDateText]: [Root.GetName]: focus AUS_the_heart_of_austria"
 		country_event = {
 			id = AUS.1
 		}
 	}
 }
 shared_focus = {
-	id =  AUS_the_bohemia_dilemma
-	icon = GFX_AUS_the_bohemia_dilemma
+	id =  AUS_a_red_specter
+	icon = GFX_AUS_a_red_specter
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_a_moravian_sunrise
+		focus = AUS_the_heart_of_austria
 	}
 	
-	x = 5
+	x = 4
 	y = 1
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Push_Polish_Claims"
+		log = "[GetDateText]: [Root.GetName]: focus AUS_a_red_specter"
 	}
 }
 shared_focus = {
-	id =  AUS_commission_woes
-	icon = GFX_AUS_commission_woes
+	id =  AUS_reign_of_the_generals
+	icon = GFX_AUS_reign_of_the_generals
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_a_moravian_sunrise
+		focus = AUS_the_heart_of_austria
 	}
 	
-	x = 7
+	x = 6
 	y = 1
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_commission_woes Morale"
+		log = "[GetDateText]: [Root.GetName]: focus AUS_reign_of_the_generals"
 		swap_ideas = {
 			remove_idea = AUS_the_time_for_liberation
 			add_idea = AUS_the_time_for_liberation_1
@@ -51,34 +51,34 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id =  AUS_approach_the_subject
-	icon = GFX_AUS_approach_the_subject
+	id =  AUS_the_prague_problem
+	icon = GFX_AUS_the_prague_problem
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_the_bohemia_dilemma
+		focus = AUS_the_heart_of_austria
 	}
 	
-	x = 4
-	y = 2
+	x = 8
+	y = 1
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_approach_the_subject"
+		log = "[GetDateText]: [Root.GetName]: focus AUS_the_prague_problem"
 		country_event = {
 			id = AUS.2
 		}
 	}
 }
 shared_focus = {
-	id =  AUS_pfrimers_gamble
-	icon = GFX_AUS_pfrimers_gamble
+	id =  AUS_arrest_socialist_leaders
+	icon = GFX_AUS_arrest_socialist_leaders
 	cost = 2.00
 
 	prerequisite = {
-		focus = AUS_commission_woes
+		focus = AUS_a_red_specter
 	}
 	
-	x = 8
+	x = 3
 	y = 2
 	
 	completion_reward = {
@@ -92,40 +92,40 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id =  AUS_concessions_to_the_nationalists
-	icon = GFX_AUS_concessions_to_the_nationalists
+	id =  AUS_the_dutch_example
+	icon = GFX_AUS_the_dutch_example
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_approach_the_subject
-	}
-
-	mutually_exclusive = {
-		focus = AUS_keep_our_grip
-	}
-	
-	x = 3
-	y = 3
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_concessions_to_the_nationalists"
-	}
-}
-shared_focus = {
-	id =  AUS_keep_our_grip
-	icon = GFX_AUS_keep_our_grip
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_approach_the_subject
+		focus = AUS_reign_of_the_generals
 	}
 	
 	mutually_exclusive = {
-		focus = AUS_concessions_to_the_nationalists
+		focus = AUS_an_austrian_model
 	}
 	
 	x = 5
-	y = 3
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_the_dutch_example"
+	}
+}
+shared_focus = {
+	id =  AUS_an_austrian_model
+	icon = GFX_AUS_an_austrian_model
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_reign_of_the_generals
+	}
+	
+	mutually_exclusive = {
+		focus = AUS_the_dutch_example
+	}
+	
+	x = 7
+	y = 2
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Pacify_Slovakia"
@@ -136,56 +136,19 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id =  AUS_a_victory_at_last
-	icon = GFX_AUS_a_victory_at_last
+	id =  AUS_tread_carefully
+	icon = GFX_AUS_tread_carefully
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_pfrimers_gamble
+		focus = AUS_the_prague_problem
 	}
 	
-	mutually_exclusive = {
-		focus = AUS_a_saddening_defeat
-	}
-	
-	x = 7
-	y = 3
+	x = 9
+	y = 2
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Integrate_Polish_Lands"
-		AUS = {
-			add_state_core = 66
-			add_state_core = 67
-			add_state_core = 762
-			remove_state_claim = 80
-			remove_state_claim = 88
-			remove_state_claim = 89
-			remove_state_claim = 91
-			remove_state_claim = 72
-		}
-		GAL = {
-			add_state_core = 80
-			add_state_core = 88
-			add_state_core = 89
-			add_state_core = 91
-			add_state_core = 72
-		}
-		set_province_name = {
-			id = 9570
-			name = "Breslau"
-		}
-		set_province_name = {
-			id = 9511
-			name = "Oppeln"
-		}
-		set_province_name = {
-			id = 11467
-			name = "Gleiwitz"
-		}
-		set_province_name = {
-			id = 6464
-			name = "Kattowitz"
-		}
 		country_event = {
 			id = AUS.60
 			days = 1

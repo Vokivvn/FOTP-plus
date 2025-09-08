@@ -383,3 +383,6 @@
  
  AUS_occupied:0 "Entente-Occupied Austria"
  AUS_occupied_DEF:0 "The Entente Commission for the Austrian Territories"
+ 
+ AUS_federation:0 "Danubian Federation"
+ AUS_federation_DEF:0 "The Danubian Federation"

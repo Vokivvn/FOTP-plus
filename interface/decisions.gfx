@@ -390,6 +390,11 @@ spriteTypes = {
 		name = "GFX_decision_SOV_placeholder"
 		texturefile = "gfx/interface/decisions/SOV_placeholder.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_decision_AUS_the_great_game"
+		texturefile = "gfx/interface/decisions/AUS_the_great_game.dds"
+	}
 
 	### decision icons
 

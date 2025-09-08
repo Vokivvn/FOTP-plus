@@ -10,3 +10,14 @@ set_politics = {
 set_popularities = {
 	authoritarianism = 100
 }
+
+create_country_leader = {
+    name = "Marta Ningrat"
+    desc = ""
+    picture = "Leader_JMB_Marta_Ningrat.dds"
+    expire = "1965.1.1"
+    ideology = authoritarianism_subtype
+    traits = {
+        #
+    }
+}

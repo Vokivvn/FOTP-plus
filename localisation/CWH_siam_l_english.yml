@@ -16,6 +16,10 @@
  SIA_conservatism_DEF:0 "the Kingdom of Siam"
  SIA_conservatism_ADJ:0 "Siamese"
  
+ SIA_republicanism:0 "Republic of Thailand"
+ SIA_republicanism_DEF:0 "the Republic of Thailand"
+ SIA_republicanism_ADJ:0 "Thai"
+ 
  SIA_authoritarianism:0 "Kingdom of Siam"
  SIA_authoritarianism_DEF:0 "the Kingdom of Siam"
  SIA_authoritarianism_ADJ:0 "Siamese"

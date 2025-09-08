@@ -118,3 +118,33 @@ AUS_commission_enforcement = {
 		}
 	}
 }
+AUS_the_great_game = {
+	AUS_look_east = {
+		visible = {
+			tag = AUS
+		}
+		available = { always = yes }
+
+		cost = 15
+
+		ai_will_do = { factor = 70 }
+		
+		fire_only_once = yes
+		complete_effect = {
+			country_event = AUS.90
+		}
+	}
+	AUS_establish_the_salzburg_front = {
+		visible = {
+			tag = AUS
+		}
+		available = { always = yes }
+
+		ai_will_do = { factor = 70 }
+		
+		fire_only_once = yes
+		complete_effect = {
+			country_event = AUS.40
+		}
+	}
+}

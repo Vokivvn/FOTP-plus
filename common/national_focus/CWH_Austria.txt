@@ -9,7 +9,7 @@ focus_tree = {
 	}
 	default = no
 	continuous_focus_position = { x = 50 y = 1800 }
-	shared_focus = AUS_a_moravian_sunrise
+	shared_focus = AUS_the_heart_of_austria
 }
 
 focus_tree = {

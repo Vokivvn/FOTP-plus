@@ -27,6 +27,53 @@ country_event = { #a walk in Wien
 	}
 }
 
+country_event = { #a walk in Wien
+	id = AUS.38
+	title = AUS.38.t
+	desc = AUS.38.desc
+	picture = GFX_report_triumvirate_breaks_up
+
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.38.a
+	}
+	option = {
+		name = AUS.38.b
+		hidden_effect = {
+			set_politics = {
+				ruling_party = ultranationalism
+			}
+		}
+		create_country_leader = {
+			name = "Karl Hermann Frank"
+			desc = "POLITICS_Karl_Hermann_Frank_DESC"
+			picture = "Leader_AUS_Karl_Hermann_Frank.dds"
+			expire = "1965.1.1"
+			ideology = corporatism
+			traits = {
+			}
+		}
+	}
+	option = {
+		name = AUS.38.c
+		hidden_effect = {
+			set_politics = {
+				ruling_party = authoritarianism
+			}
+		}
+		create_country_leader = {
+			name = "Eduard von Böhm-Ermolli"
+			desc = "POLITICS_Eduard_von_Bohm_Ermolli_DESC"
+			picture = "Leader_AUS_Eduard_von_Bohm_Ermolli.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+			}
+		}
+	}
+}
+
 country_event = { #intro
 	id = AUS.39
 	title = AUS.39.t
@@ -114,7 +161,7 @@ country_event = { #intro
 	id = AUS.70
 	title = AUS.70.t
 	desc = AUS.70.desc
-	picture = GFX_report_event_AUS_start_vienna
+	picture = GFX_report_event_AUS_FF_takes_over
 
 	is_triggered_only = yes
 	

@@ -1,0 +1,45 @@
+﻿add_namespace = SPR
+
+country_event = { #intro
+	id = SPR.0
+	title = SPR.0.t
+	desc = SPR.0.desc
+	picture = GFX_report_event_SPR_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = SPR.0.a
+	}
+}
+
+country_event = { #a walk in Wien
+	id = SPR.1
+	title = SPR.1.t
+	desc = SPR.1.desc
+	picture = GFX_report_event_SPR_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = SPR.1.a
+	}
+}
+
+country_event = { #intro
+	id = SPR.39
+	title = SPR.39.t
+	desc = SPR.39.desc
+	picture = GFX_report_event_SPR_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = SPR.39.a
+		hidden_effect = {
+			set_politics = {
+				ruling_party = ultranationalism
+			}
+		}
+	}
+}

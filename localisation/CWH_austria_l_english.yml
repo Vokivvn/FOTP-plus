@@ -247,7 +247,7 @@
  AUS.4.desc:0 "poggers wait uh oh"
  AUS.4.a:0 "let me off f.f.'s rollercoaster'"
 
- AUS.5.t:0 "Diplomatic Mission To Hungary - 1"
+ AUS.5.t:0 "The Triumvirate Shatters"
  AUS.5.desc:0 "realpolitik"
  AUS.5.a:0 "pog mode activated"
 
@@ -284,9 +284,11 @@
  AUS.14.a:0 "Hess convinced the council to have the Kaiser executed."
  AUS.14.b:0 "Dolfuss used his authority to send the Kaiser into exile."
 
- AUS.15.t:0 "The Wiener-constitution"
- AUS.15.desc:0 "No king\n\nOne ruler to rule them all\nno parliament\n\nfascism is the new shit"
- AUS.15.a:0 "Damn"
+ AUS.38.t:0 "The Triumvirate Shatters"
+ AUS.38.desc:0 "As Lothar Rendulic walked up the staircase to the Reichsrat, he did not even have to look down at his feet since he had scaled them countless times before. He knew who and what he would meet once he reached the top. On one hand, he sympathized with Frank’s politics, as well as his desire to ally with the Netherlands. On the other hand, he greatly admired von Böhm-Ermolli and his veteran status. But deep within, Rendulic had his own undisclosed ideas for a radical transformation of Austria.\n\nWhen Rendulic made his entrance into the main hall, he noticed a greatly disgruntled Frank and the aging von Böhm-Ermolli. He cleared his throat upon looking at the two men. Before he could even speak, Frank interrupted him.\n\n"Now that you are here at last, we shall begin the discussion on the matters of the triumvirate. It is established that the army contains various cliques, and each of us holds a membership in one or the other. I believe the best course of action would be to end this pointless bickering and come to a decision swiftly. What is to be done?""
+ AUS.38.a:0 "Continue as usual"
+ AUS.38.b:0 "Allow the Heimwehr in"
+ AUS.38.c:0 "Leave it to the Military"
 
  AUSslovakia.1.t:0 "Slovakia Breaks Away"
  AUSslovakia.1.desc:0 "pog"
@@ -319,3 +321,6 @@
  AUS_new_empire_authoritarianism:0 "Austrian Empire"
  AUS_new_empire_authoritarianism_DEF:0 "The Austrian Empire"
  AUS_new_empire_authoritarianism_ADJ:0 "Austrian"
+ 
+ AUS_the_great_game:0 "The Great Game"
+ AUS_the_great_game_desc:0 "The Great Game is the name for the rivalry between the Great European Powers"

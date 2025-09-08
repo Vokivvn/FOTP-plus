@@ -40,3 +40,14 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Javier I"
+	desc = "Leader_SPR_Javier_I_DESC"
+	picture = "Leader_SPR_Javier_I.dds"
+	expire = "1965.1.1"
+	ideology = ultranationalism_subtype
+	traits = {
+		#
+	}
+}

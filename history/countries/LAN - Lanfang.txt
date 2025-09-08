@@ -14,3 +14,14 @@ set_popularities = {
 	progressivism = 42
 	socialism = 9
 }
+
+create_country_leader = {
+    name = "Khouw Kim An"
+    desc = ""
+    picture = "Leader_LAN_Khouw_Kim_An.dds"
+    expire = "1965.1.1"
+    ideology = progressivism_subtype
+    traits = {
+        #
+    }
+}

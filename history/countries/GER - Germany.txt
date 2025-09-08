@@ -1,6 +1,7 @@
 ﻿capital = 55
 
 set_fuel_ratio = 0.8
+OOB = "GER_1936"
 
 set_stability = 0.75 
 set_war_support = 0.3

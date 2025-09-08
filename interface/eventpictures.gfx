@@ -2428,4 +2428,12 @@ spriteTypes = {
 		name = "GFX_report_event_AUS_invade_croatia"
 		texturefile = "gfx/event_pictures/event_austria_invade_croatia.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_AUS_FF_takes_over"
+		texturefile = "gfx/event_pictures/event_austria_FF_takes_over.dds"
+	}
+	spriteType = {
+		name = "GFX_report_triumvirate_breaks_up"
+		texturefile = "gfx/event_pictures/GFX_report_triumvirate_breaks_up.dds"
+	}
 }
