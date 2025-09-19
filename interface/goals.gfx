@@ -1944,8 +1944,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_ENG_Solidify_moderates.dds"
 	}
 	SpriteType = { 
-		name = "GFX_AUS_a_moravian_sunrise"
-		texturefile = "gfx/interface/goals/GFX_AUS_a_moravian_sunrise.dds"
+		name = "GFX_AUS_the_heart_of_austria"
+		texturefile = "gfx/interface/goals/GFX_AUS_the_heart_of_austria.dds"
 	}
 	SpriteType = { 
 		name = "GFX_AUS_the_bohemia_dilemma"

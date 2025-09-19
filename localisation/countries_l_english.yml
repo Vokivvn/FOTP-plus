@@ -1714,29 +1714,10 @@
  FSR_progressivism_ADJ:0 "French"
  
  
- #Galicia
- GAL_ultranationalism:0 "Galicia"
- GAL_ultranationalism_DEF:0 "Galicia"
- GAL_conservatism:0 "Galicia"
- GAL_conservatism_DEF:0 "Galicia"
- GAL_authoritarianism:0 "Galicia"
- GAL_authoritarianism_DEF:0 "Galicia"
- GAL_centralism:0 "Galicia"
- GAL_centralism_DEF:0 "Galicia"
- GAL_ultranationalism_ADJ:0 "Galician"
- GAL_conservatism_ADJ:0 "Galician"
- GAL_authoritarianism_ADJ:0 "Galician"
- GAL_centralism_ADJ:0 "Galician"
- GAL_socialism:0 "Galicia"
- GAL_socialism_DEF:0 "Galicia"
- GAL_socialism_ADJ:0 "Galician"
- GAL_republicanism:0 "Galicia"
- GAL_republicanism_DEF:0 "Galicia"
- GAL_republicanism_ADJ:0 "Galician"
- GAL_liberalism:0 "Galicia"
- GAL_liberalism_DEF:0 "Galicia"
- GAL_liberalism_ADJ:0 "Galician"
- 
+ #Polish General Government
+ GAL:0 "Polish General Government"
+ GAL_DEF:0 "the Polish General Government"
+ GAL_ADJ:0 "Polish" 
  
  #Gelderland
  GEL_ultranationalism:0 "Gelderland"

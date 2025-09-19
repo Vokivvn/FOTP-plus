@@ -11,7 +11,8 @@ guiTypes = {
 		position = { x=-282 y=-310 }	
 		size = { width =581 height =427 }
 		moveable = yes
-		Orientation = CENTER		
+		Orientation = CENTER	
+		clipping = no
 		
 		show_sound = event_popup
 		hide_sound = menu_close_window

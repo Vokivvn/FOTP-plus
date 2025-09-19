@@ -13,5 +13,7 @@
  WAR_NAME_FRA_AUS:0 "Great European War"
  WAR_NAME_SOV_FRA:0 "Great European War"
  WAR_NAME_FRA_SOV:0 "Great European War"
-  WAR_NAME_SOV_ITA:0 "Great European War"
+ WAR_NAME_SOV_ITA:0 "Great European War"
  WAR_NAME_ITA_SOV:0 "Great European War"
+ WAR_NAME_GER_FRA:0 "Rhine War"
+ WAR_NAME_FRA_GER:0 "Rhine War"

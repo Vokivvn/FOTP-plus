@@ -13,14 +13,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	centralism = 4
-	socialism = 6
+	centralism = 9
+	socialism = 11
 	progressivism = 0 
-	liberalism = 11
-	conservatism = 5
+	liberalism = 22
+	conservatism = 24
 	republicanism = 0
 	authoritarianism = 0
-	ultranationalism = 74
+	ultranationalism = 34
 }
 
 add_ideas = {
@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_Anton_Mussert_DESC"
 	picture = "Leader_HOL_Anton_Mussert.dds"
 	expire = "1965.1.1"
-	ideology = national_syndicalism
+	ideology = ultranationalism_subtype
 	traits = {
 		#
 	}

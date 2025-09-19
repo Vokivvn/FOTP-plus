@@ -36,11 +36,11 @@
  POLITICS_Franz_Ferdinand_DESC:0 "Franz Ferdinand was never meant to rule the Empire. The succession simply happened to fall to him after the suicide of his cousin and the death of his father, pleasing Kaiser Franz Joseph I not one bit. Franz Joseph did everything he could to sabotage Franz Ferdinand, making him renounce his childrens' right to the throne and forcing him to keep his beloved wife away from the public eye. Franz Ferdinand would have had enough trouble ruling a scarred and disillusioned Austria without these crippling blows, and with them it was nigh-impossible. Still, he has managed to rule for two decades since his uncle's death, not an ignorably easy task for a monarch.\n\nHowever, Austria may finally be at its tipping point. Franz Ferdinand is an uncharismatic and unpopular monarch, and he faces much opposition. If he wants any chance of keeping his throne and preserving the ancient traditions of the Austrian Empire, he will have to take drastic action and regain some of the lost glory of Kaisers past."
 
  ##focuses
- AUS_a_moravian_sunrise:0 "A Moravian Sunrise"
- AUS_a_moravian_sunrise_desc:0 ""
+ AUS_the_heart_of_austria:0 "The Heart of Austria"
+ AUS_the_heart_of_austria_desc:0 ""
 
- AUS_the_bohemia_dilemma:0 "The Bohemia Dilemma"
- AUS_the_bohemia_dilemma_desc:0 ""
+ AUS_our_great_empire:0 "Our Great Empire"
+ AUS_our_great_empire_desc:0 ""
 
  AUS_commission_woes:0 "Commission Woes"
  AUS_commission_woes_desc:0 ""
@@ -231,8 +231,8 @@
  AUS.0.desc:0 "pog"
  AUS.0.a:0 "ok"
 
- AUS.1.t:0 "A Ride through Wien"
- AUS.1.desc:0 "Kaiser Franz Ferdinand had gone on many drives through Wien. After all, it was the Imperial Capital. Day after day, he could recount what he saw: disgruntled workers, rowdy nationalists, men in suits who cared little for the state of things. But one thing he noticed for certain, was dread. The same dread of the last twenty years. He knew the people couldn't stand the humilation of Austria. He knew that was the reason so many turned to extremism. But what could be done about it?"
+ AUS.1.t:0 "A Day in Wien"
+ AUS.1.desc:0 "Back when the Empire still ruled Hungary, the Kaiser’s visit to Wien would have been vastly different. Cheers from the crowds, Austrian flags waving, and most of all, not a socialist in sight. Ever since the 1916 Revolution, the world has deteriorated. The average passerby hardly pays attention, and workers shout with scorn. A once proud empire has now become a corpse."
  AUS.1.a:0 "ok"
 
  AUS.2.t:0 "Franz Ferdinand's Decree"
@@ -284,7 +284,7 @@
  AUS.14.a:0 "Hess convinced the council to have the Kaiser executed."
  AUS.14.b:0 "Dolfuss used his authority to send the Kaiser into exile."
 
- AUS.38.t:0 "The Triumvirate Shatters"
+ AUS.38.t:0 "The Meeting"
  AUS.38.desc:0 "As Lothar Rendulic walked up the staircase to the Reichsrat, he did not even have to look down at his feet since he had scaled them countless times before. He knew who and what he would meet once he reached the top. On one hand, he sympathized with Frank’s politics, as well as his desire to ally with the Netherlands. On the other hand, he greatly admired von Böhm-Ermolli and his veteran status. But deep within, Rendulic had his own undisclosed ideas for a radical transformation of Austria.\n\nWhen Rendulic made his entrance into the main hall, he noticed a greatly disgruntled Frank and the aging von Böhm-Ermolli. He cleared his throat upon looking at the two men. Before he could even speak, Frank interrupted him.\n\n"Now that you are here at last, we shall begin the discussion on the matters of the triumvirate. It is established that the army contains various cliques, and each of us holds a membership in one or the other. I believe the best course of action would be to end this pointless bickering and come to a decision swiftly. What is to be done?""
  AUS.38.a:0 "Continue as usual"
  AUS.38.b:0 "Allow the Heimwehr in"
@@ -324,3 +324,6 @@
  
  AUS_the_great_game:0 "The Great Game"
  AUS_the_great_game_desc:0 "The Great Game is the name for the rivalry between the Great European Powers"
+
+ AUS_commission:0 "The Second Commission"
+ AUS_commission_desc:0 "The Great Game is the name for the rivalry between the Great European Powers"

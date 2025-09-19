@@ -37,6 +37,21 @@ country_event = { #a walk in Wien
 	
 	option = {
 		name = AUS.38.a
+		hidden_effect = {
+			set_politics = {
+				ruling_party = conservatism
+			}
+			load_focus_tree = AUS_conservatives
+		}
+		create_country_leader = {
+			name = "Eduard von Böhm-Ermolli"
+			desc = "POLITICS_Eduard_von_Bohm_Ermolli_DESC"
+			picture = "Leader_AUS_Eduard_von_Bohm_Ermolli.dds"
+			expire = "1965.1.1"
+			ideology = conservatism_subtype
+			traits = {
+			}
+		}
 	}
 	option = {
 		name = AUS.38.b
@@ -44,6 +59,7 @@ country_event = { #a walk in Wien
 			set_politics = {
 				ruling_party = ultranationalism
 			}
+			load_focus_tree = AUS_Austrofascism
 		}
 		create_country_leader = {
 			name = "Karl Hermann Frank"
@@ -63,9 +79,9 @@ country_event = { #a walk in Wien
 			}
 		}
 		create_country_leader = {
-			name = "Eduard von Böhm-Ermolli"
+			name = "Lothar Rendulic"
 			desc = "POLITICS_Eduard_von_Bohm_Ermolli_DESC"
-			picture = "Leader_AUS_Eduard_von_Bohm_Ermolli.dds"
+			picture = "Leader_AUS_Lothar_Rendulic.dds"
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
@@ -85,9 +101,15 @@ country_event = { #intro
 	option = {
 		name = AUS.39.a
 		hidden_effect = {
-			set_politics = {
-				ruling_party = ultranationalism
+			AUS = {
+				declare_war_on = {
+					target = POL
+					type = annex_everything
+				}
 			}
+			SOV = {
+				country_event = { id = RUS.60 days = 5 }
+			} 
 		}
 	}
 }
@@ -120,7 +142,31 @@ country_event = { #intro
 	option = {
 		name = AUS.41.a
 		hidden_effect = {
-		create_faction = "Salzburg Front"
+			AUS = {
+				release_autonomy = {
+					target = GAL
+					autonomy_state = autonomy_satellite
+					freedom_level = 0.5
+				}
+			}
+			GAL = {
+				transfer_state = 88
+				transfer_state = 762
+				transfer_state = 67
+				transfer_state = 66
+				transfer_state = 91
+				transfer_state = 89
+				transfer_state = 92
+				transfer_state = 90
+				transfer_state = 10
+				transfer_state = 87
+				transfer_state = 97
+				transfer_state = 98
+				transfer_state = 86
+				transfer_state = 85
+				transfer_state = 5
+				transfer_state = 188
+			}
 		}
 	}
 }
@@ -271,6 +317,19 @@ country_event = { #intro
 	
 	option = {
 		name = commission.1.a
+	}
+}
+
+country_event = { #intro
+	id = commission.2
+	title = commission.2.t
+	desc = commission.2.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = commission.2.a
 		set_country_flag = Austria_Commission
 		set_global_flag = Commission
 	}
