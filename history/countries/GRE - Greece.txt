@@ -21,7 +21,14 @@ set_politics = {
 	elections_allowed = yes # none after offset 1
 }
 set_popularities = {
-	republicanism = 100
+	centralism = 5
+	socialism = 0
+	republicanism = 95
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 0
+	ultranationalism = 0
 }
 
 set_stability = 0.75

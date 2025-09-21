@@ -186,11 +186,11 @@ BOL = {
 }
 BRA = {
 	color = rgb { 91 109 135 }
-	color_ui = rgb { 100 122 108 }
+	color_ui = rgb { 91 109 135 }
 }
 BWA = {
-	color = rgb { 100 122 108 }
-	color_ui = rgb { 100 122 108 }
+	color = rgb { 91 109 135 }
+	color_ui = rgb { 91 109 135 }
 }
 CAN = {
 	color = rgb { 153 103 103 }
@@ -865,8 +865,8 @@ JMB = {
 	color_ui = rgb { 98 87 99 }
 }
 BAV = {
-	color = rgb { 122  37  37 }
-	color_ui = rgb { 122  37  37 }
+	color = rgb { 155 138 141 }
+	color_ui = rgb { 155 138 141 }
 }
 PRS = {
 	color = rgb { 111  112  128 }

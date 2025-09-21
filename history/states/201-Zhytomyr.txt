@@ -16,7 +16,19 @@ state={
 		add_core_of = UKR
 		add_core_of = UKN
 		add_core_of = POL
-
+		1936.1.1 = {
+			UKN = {
+				set_province_controller = 504
+				set_province_controller = 550
+				set_province_controller = 3543
+				set_province_controller = 6497
+				set_province_controller = 11490
+				set_province_controller = 11514
+			}
+			LIT = {
+				set_province_controller = 9493
+			}
+		}
 	}
 
 	provinces={

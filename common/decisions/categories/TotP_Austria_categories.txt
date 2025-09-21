@@ -15,22 +15,10 @@ AUS_commission_enforcement = {
 	priority = 0
 }
 AUS_the_great_game = {  
-	picture = GFX_decision_AUS_the_great_game
 	visible_when_empty = yes
 	allowed = {
 		original_tag = AUS
 	}
 
 	priority = 0
-}
-AUS_classes_cat = {
-	visible_when_empty = yes
-	picture = GFX_decision_SOV_state_of_the_country
-	scripted_gui = AUS_classes_GUI
-	visible = {
-		TAG = AUS
-	}
-	priority = {
-		base = 13
-	}
 }

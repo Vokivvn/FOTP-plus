@@ -155,7 +155,6 @@ country_event = { #intro
 				transfer_state = 67
 				transfer_state = 66
 				transfer_state = 91
-				transfer_state = 89
 				transfer_state = 92
 				transfer_state = 90
 				transfer_state = 10

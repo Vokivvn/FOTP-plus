@@ -22,6 +22,18 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = LIT
+		1936.1.1 = {
+			BLR = {
+				set_province_controller = 318
+				set_province_controller = 13206
+				set_province_controller = 347
+				set_province_controller = 400
+				set_province_controller = 11301
+				set_province_controller = 3254
+				set_province_controller = 11329
+				set_province_controller = 11274
+			}
+		}
 	}
 
 	provinces={

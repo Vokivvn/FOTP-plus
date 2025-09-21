@@ -16,7 +16,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	republicanism = 100
+	centralism = 6
+	socialism = 16
+	progressivism = 5
+	liberalism = 23
+	conservatism = 4
+	republicanism = 29
+	authoritarianism = 12
+	ultranationalism = 5
 }
 
 set_technology = {

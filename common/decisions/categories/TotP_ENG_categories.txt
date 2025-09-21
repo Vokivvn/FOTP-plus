@@ -16,3 +16,20 @@ ENG_party_popularity = {
 		tag = ENG
 	}
 }
+
+ENG_commission = {
+	visible_when_empty = no
+	allowed = {
+		original_tag = ENG
+	}
+
+	priority = 0
+}
+ENG_commission_enforcement = {
+	visible_when_empty = no
+	allowed = {
+		original_tag = ENG
+	}
+
+	priority = 0
+}

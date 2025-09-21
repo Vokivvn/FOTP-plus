@@ -15,24 +15,8 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id =  AUS_a_red_specter
-	icon = GFX_AUS_a_red_specter
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_the_heart_of_austria
-	}
-	
-	x = 4
-	y = 1
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_a_red_specter"
-	}
-}
-shared_focus = {
-	id =  AUS_reign_of_the_generals
-	icon = GFX_AUS_reign_of_the_generals
+	id =  AUS_our_great_empire
+	icon = GFX_AUS_our_great_empire
 	cost = 4.00
 
 	prerequisite = {
@@ -43,273 +27,189 @@ shared_focus = {
 	y = 1
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_reign_of_the_generals"
-		swap_ideas = {
-			remove_idea = AUS_the_time_for_liberation
-			add_idea = AUS_the_time_for_liberation_1
-		}
+		log = "[GetDateText]: [Root.GetName]: focus AUS_our_great_empire"
 	}
 }
 shared_focus = {
-	id =  AUS_the_prague_problem
-	icon = GFX_AUS_the_prague_problem
+	id =  AUS_bohm_ermollis_conservatives
+	icon = GFX_AUS_bohm_ermollis_conservatives
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_the_heart_of_austria
+		focus = AUS_our_great_empire
+	}
+	mutually_exclusive = {
+		focus = AUS_rendulics_administration
+	}
+	mutually_exclusive = {
+		focus = AUS_franks_heimwehr
+	}
+	
+	x = 4
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_bohm_ermollis_conservatives"
+	}
+}
+shared_focus = {
+	id =  AUS_rendulics_administration
+	icon = GFX_AUS_rendulics_administration
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_our_great_empire
+	}
+	mutually_exclusive = {
+		focus = AUS_bohm_ermollis_conservatives
+	}
+	mutually_exclusive = {
+		focus = AUS_franks_heimwehr
+	}
+	
+	x = 6
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_rendulics_administration"
+	}
+}
+shared_focus = {
+	id =  AUS_franks_heimwehr
+	icon = GFX_AUS_franks_heimwehr
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_our_great_empire
+	}
+	mutually_exclusive = {
+		focus = AUS_bohm_ermollis_conservatives
+	}
+	mutually_exclusive = {
+		focus = AUS_rendulics_administration
 	}
 	
 	x = 8
-	y = 1
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_the_prague_problem"
-		country_event = {
-			id = AUS.2
-		}
-	}
-}
-shared_focus = {
-	id =  AUS_arrest_socialist_leaders
-	icon = GFX_AUS_arrest_socialist_leaders
-	cost = 2.00
-
-	prerequisite = {
-		focus = AUS_a_red_specter
-	}
-	
-	x = 3
 	y = 2
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_pfrimers_gamble"
-		hidden_effect = {
-			news_event = {
-				id = newswar.1
-				hours = 12
-			}
-		}
+		log = "[GetDateText]: [Root.GetName]: focus AUS_franks_heimwehr"
 	}
 }
 shared_focus = {
-	id =  AUS_the_dutch_example
-	icon = GFX_AUS_the_dutch_example
+	id =  AUS_look_to_the_past
+	icon = GFX_AUS_look_to_the_past
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_reign_of_the_generals
+		focus = AUS_bohm_ermollis_conservatives
 	}
 	
-	mutually_exclusive = {
-		focus = AUS_an_austrian_model
-	}
-	
-	x = 5
-	y = 2
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_the_dutch_example"
-	}
-}
-shared_focus = {
-	id =  AUS_an_austrian_model
-	icon = GFX_AUS_an_austrian_model
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_reign_of_the_generals
-	}
-	
-	mutually_exclusive = {
-		focus = AUS_the_dutch_example
-	}
-	
-	x = 7
-	y = 2
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Pacify_Slovakia"
-		country_event = {
-			id = AUS.3
-			hours = 12
-		}
-	}
-}
-shared_focus = {
-	id =  AUS_tread_carefully
-	icon = GFX_AUS_tread_carefully
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_the_prague_problem
-	}
-	
-	x = 9
-	y = 2
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Integrate_Polish_Lands"
-		country_event = {
-			id = AUS.60
-			days = 1
-		}
-	}
-}
-shared_focus = {
-	id =  AUS_a_saddening_defeat
-	icon = GFX_AUS_a_saddening_defeat
-	cost = 4.00
-
-	prerequisite = {
-		focus = AUS_pfrimers_gamble
-	}
-	
-	mutually_exclusive = {
-		focus = AUS_a_victory_at_last
-	}
-	
-	x = 9
+	x = 4
 	y = 3
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_a_saddening_defeat"
-		country_event = {
-			id = AUS.4
-			hours = 12
-		}
-		hidden_effect = {
-			reverse_add_opinion_modifier = {
-				target = HUN
-				modifier = AUS_balkan_shift_in_diplomacy
-			}
-			reverse_add_opinion_modifier = {
-				target = CRO
-				modifier = AUS_balkan_shift_in_diplomacy
-			}
-			reverse_add_opinion_modifier = {
-				target = SER
-				modifier = AUS_balkan_shift_in_diplomacy
-			}
-			reverse_add_opinion_modifier = {
-				target = ITA
-				modifier = AUS_balkan_shift_in_diplomacy
-			}
-			reverse_add_opinion_modifier = {
-				target = TRA
-				modifier = AUS_balkan_shift_in_diplomacy
-			}
-			reverse_add_opinion_modifier = {
-				target = ROM
-				modifier = AUS_balkan_shift_in_diplomacy
-			}
-			reverse_add_opinion_modifier = {
-				target = BUL
-				modifier = AUS_balkan_shift_in_diplomacy
-			}
-			reverse_add_opinion_modifier = {
-				target = ALB
-				modifier = AUS_balkan_shift_in_diplomacy
-			}
-			reverse_add_opinion_modifier = {
-				target = GRE
-				modifier = AUS_balkan_shift_in_diplomacy
-			}
-			reverse_add_opinion_modifier = {
-				target = TUR
-				modifier = AUS_balkan_shift_in_diplomacy
-			}
-		}
+		log = "[GetDateText]: [Root.GetName]: focus AUS_look_to_the_past"
 	}
 }
 shared_focus = {
-	id =  AUS_a_toast_in_prague
-	icon = GFX_AUS_a_toast_in_prague
+	id =  AUS_toe_the_line
+	icon = GFX_AUS_toe_the_line
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_concessions_to_the_nationalists
-		focus = AUS_keep_our_grip
+		focus = AUS_rendulics_administration
+	}
+	
+	x = 6
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_toe_the_line"
+	}
+}
+shared_focus = {
+	id =  AUS_a_new_system
+	icon = GFX_AUS_a_new_system
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_franks_heimwehr
+	}
+	
+	x = 8
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_a_new_system"
+	}
+}
+shared_focus = {
+	id =  AUS_our_greatest_moments
+	icon = GFX_AUS_our_greatest_moments
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_look_to_the_past
 	}
 	
 	x = 4
 	y = 4
 	
-	completion_reward = { #dealing with Hungary
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Deal_With_The_Devil"
-		country_event = {
-			id = AUS.5
-			days = 2
-		}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_our_greatest_moments"
 	}
 }
 shared_focus = {
-	id =  AUS_the_reichsrat_at_peace
-	icon = GFX_AUS_the_reichsrat_at_peace
+	id =  AUS_strengthen_the_army
+	icon = GFX_AUS_strengthen_the_army
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_a_victory_at_last
-		focus = AUS_a_saddening_defeat
+		focus = AUS_toe_the_line
+	}
+	
+	x = 6
+	y = 4
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_strengthen_the_army"
+	}
+}
+shared_focus = {
+	id =  AUS_take_the_world_by_storm
+	icon = GFX_AUS_take_the_world_by_storm
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_a_new_system
 	}
 	
 	x = 8
 	y = 4
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Skirmish_With_Croatia"
-		start_border_war = {
-			change_state_after_war = yes
-			attacker = {
-				state = 102
-				num_provinces = 2
-				on_win = AUS_borderwar_CRO.1
-				on_lose = AUS_borderwar_CRO.2
-				on_cancel = AUS_borderwar_CRO.3
-			}
-						
-			defender = {
-				state = 847
-				num_provinces = 1
-				on_win = AUS_borderwar_CRO.4
-				on_lose = AUS_borderwar_CRO.5
-				on_cancel = AUS_borderwar_CRO.6
-			}
-		}
-		set_border_war_data = {
-			attacker = 102
-			defender = 847
-			defender_modifier = 0.05
-			combat_width = 80
-		}
-		add_to_variable = {
-			var = country_infamy
-			value = 1
-		}
+		log = "[GetDateText]: [Root.GetName]: focus AUS_take_the_world_by_storm"
 	}
 }
 shared_focus = {
-	id =  AUS_let_us_commence
-	icon = GFX_AUS_let_us_commence
+	id =  AUS_what_comes_next
+	icon = GFX_AUS_what_comes_next
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_a_toast_in_prague
-	}
-	prerequisite = {
-		focus = AUS_the_reichsrat_at_peace
+		focus = AUS_our_greatest_moments
+		focus = AUS_strengthen_the_army
+		focus = AUS_take_the_world_by_storm
 	}
 	
 	x = 6
 	y = 5
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Imperial_Ambitions_Continue"
-		swap_ideas = {
-			remove_idea = AUS_the_nostalgic_empire
-			add_idea = AUS_the_revitalized_empire
-		}
-		hidden_effect = {
-			load_focus_tree = AUS_Monarchism
+		log = "[GetDateText]: [Root.GetName]: focus AUS_what_comes_next"
+		country_event = {
+			id = AUS.38
 		}
 	}
 }
@@ -743,26 +643,6 @@ shared_focus = {
 		swap_ideas = {
 			remove_idea = AUS_corporate_suits_among_us_make_it_good_3
 			add_idea = AUS_corporate_suits_among_us_make_it_good_4
-		}
-		hidden_effect = {
-			set_politics = {
-				ruling_party = ultranationalism
-			}
-			kill_country_leader = yes
-			add_popularity = {
-				ideology = ultranationalism
-				popularity = 0.2
-			}
-			create_country_leader = {
-				name = "Engelbert Dollfuss"
-				desc = "POLITICS_Engelbert_Dollfuss_DESC"
-				picture = "Leader_AUS_Engelbert_Dollfuss.dds"
-				expire = "1965.1.1"
-				ideology = corporatism
-				traits = {
-					#
-				}
-			}
 		}
 	}
 }

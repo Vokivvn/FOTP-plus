@@ -1,13 +1,22 @@
 AUS_commission = {
-	AUS_the_commission_begins = {
+	AUS_prepare_for_the_commission = {
 		visible = {
 			tag = AUS
 		}
 		available = { always = yes }
 
+		days_remove = 3
+
 		ai_will_do = { factor = 70 }
 		
 		fire_only_once = yes
+		
+		remove_effect = {
+			AUS = { 
+				country_event = { id = commission.2 days = 1 }
+			}
+		}
+		
 		complete_effect = {
 			country_event = commission.1
 		}
@@ -31,6 +40,54 @@ AUS_commission = {
 		fire_only_once = yes
 		complete_effect = {
 			country_event = commission.3
+		}
+	}
+	AUS_arrange_meetings = {
+		visible = {
+			AND = {
+				has_country_flag = Austria_Commission
+				has_global_flag = Commission
+			}
+		}
+		
+		ai_will_do = { factor = 70 }
+		
+		available = {
+			AND = {
+				has_country_flag = Austria_Commission
+				has_global_flag = Commission
+			}
+		}
+		fire_only_once = yes
+		complete_effect = {
+			country_event = commission.5
+		}
+	}
+	AUS_meet_with_diplomats = {
+		visible = {
+			AND = {
+				has_country_flag = Austria_Commission
+				has_global_flag = Commission
+			}
+		}
+		
+		ai_will_do = { factor = 70 }
+		
+		available = {
+			AND = {
+				has_country_flag = Austria_Commission
+				has_global_flag = Commission
+			}
+		}
+		fire_only_once = yes
+		remove_effect = {
+			SOV_western_krai_increase_michael_influence_15 = yes
+			clr_country_flag = SOV_flag_michael_decision_active
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_western_krai_arrange_meetings"
+			set_country_flag = SOV_flag_michael_decision_active
 		}
 	}
 }
@@ -145,6 +202,25 @@ AUS_the_great_game = {
 		fire_only_once = yes
 		complete_effect = {
 			country_event = AUS.40
+		}
+	}
+	AUS_invade_poland = {
+		visible = {
+			AND = {
+				has_country_flag = invade_poland
+			}
+		}
+		available = {
+			AND = {
+				has_country_flag = invade_poland
+			}
+		}
+		
+		ai_will_do = { factor = 70 }
+		
+		fire_only_once = yes
+		complete_effect = {
+			country_event = AUS.39
 		}
 	}
 }

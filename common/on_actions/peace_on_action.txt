@@ -225,64 +225,15 @@ on_actions = {
 		} 
 	}
 	
-	on_state_control_changed = {
+	on_capitulation = {
 		effect = { 
 			if = {
 				limit = {
 					ROOT = { tag = POL }
-					FROM = {
-						tag = AUS
-						AND = {
-							9 = { is_controlled_by = POL }
-							69 = { is_controlled_by = POL }
-							74 = { is_controlled_by = POL }
-							75 = { is_controlled_by = POL }
-						}
-					}
-				}
-				POL = {
-					country_event = { id = PLC.7 days = 2 }
-				}
-			}
-		} 
-	}
-	
-	on_state_control_changed = {
-		effect = { 
-			if = {
-				limit = {
-					ROOT = { tag = AUS }
-					FROM = {
-						tag = POL
-						AND = {
-							66 = { is_controlled_by = AUS }
-							67 = { is_controlled_by = AUS }
-							88 = { is_controlled_by = AUS }
-							762 = { is_controlled_by = AUS }
-						}
-					}
+					FROM = { tag = AUS }
 				}
 				AUS = {
-					country_event = { id = PLC.8 days = 2 }
-				}
-			}
-		} 
-	}
-	
-	on_state_control_changed = {
-		effect = { 
-			if = {
-				limit = {
-					FROM = {
-						tag = POL
-						surrender_progress > 0.2
-					}
-					AUS = {
-						has_war_with = POL
-					}
-				}
-				AUS = {
-					country_event = { id = PLC.8 days = 2 }
+					country_event = { id = AUS.41 days = 2 }
 				}
 			}
 		} 

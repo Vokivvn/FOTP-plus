@@ -1025,6 +1025,10 @@ country_event = { # The Commonwealth of the Philipinnes is established!
 					target = TAG
 					type = civil_war
 				}
+				declare_war_on = {
+					target = PHI
+					type = civil_war
+				}
 			}
 			HUK = {
 				declare_war_on = {
@@ -1035,6 +1039,12 @@ country_event = { # The Commonwealth of the Philipinnes is established!
 			TAG = {
 				declare_war_on = {
 					target = CPH
+					type = civil_war
+				}
+			}
+			TAG = {
+				declare_war_on = {
+					target = PHI
 					type = civil_war
 				}
 			}

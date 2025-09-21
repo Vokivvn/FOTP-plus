@@ -62,3 +62,20 @@ USA_filibuster = {
 
 	priority = 98
 }
+
+USA_commission = {
+	visible_when_empty = no
+	allowed = {
+		original_tag = USA
+	}
+
+	priority = 0
+}
+USA_commission_enforcement = {
+	visible_when_empty = no
+	allowed = {
+		original_tag = USA
+	}
+
+	priority = 0
+}
