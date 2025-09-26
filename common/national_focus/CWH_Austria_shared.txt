@@ -1,33 +1,33 @@
 #intro tree
 shared_focus = {
-	id =  AUS_the_heart_of_austria
-	icon = GFX_AUS_the_heart_of_austria
+	id =  AUS_the_austrian_winter
+	icon = GFX_AUS_the_austrian_winter
 	cost = 4.00
 	
 	x = 6
 	y = 0
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_the_heart_of_austria"
+		log = "[GetDateText]: [Root.GetName]: focus AUS_the_austrian_winter"
 		country_event = {
 			id = AUS.1
 		}
 	}
 }
 shared_focus = {
-	id =  AUS_our_great_empire
-	icon = GFX_AUS_our_great_empire
+	id =  AUS_the_socialist_question
+	icon = GFX_AUS_the_socialist_question
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_the_heart_of_austria
+		focus = AUS_the_austrian_winter
 	}
 	
 	x = 6
 	y = 1
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_our_great_empire"
+		log = "[GetDateText]: [Root.GetName]: focus AUS_the_socialist_question"
 	}
 }
 shared_focus = {
@@ -58,7 +58,7 @@ shared_focus = {
 	cost = 4.00
 
 	prerequisite = {
-		focus = AUS_our_great_empire
+		focus = AUS_the_socialist_question
 	}
 	mutually_exclusive = {
 		focus = AUS_bohm_ermollis_conservatives

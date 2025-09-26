@@ -868,6 +868,10 @@ BAV = {
 	color = rgb { 155 138 141 }
 	color_ui = rgb { 155 138 141 }
 }
+GHA = {
+	color = rgb { 88 122 90 }
+	color_ui = rgb { 88 122 90 }
+}
 PRS = {
 	color = rgb { 111  112  128 }
 	color_ui = rgb { 111  112  128 }

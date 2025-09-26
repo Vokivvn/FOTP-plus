@@ -49,6 +49,10 @@
   DEN.4.t:0 "Peace with Denmark"
   DEN.4.desc:0 "Peace with Denmark!!!!"
   DEN.4.a:0 "Finally!"
+
+  DEN.5.t:0 "Ghana Breaks Free"
+  DEN.5.desc:0 "Reports from our colony in the Gold Coast bring troublesome news. A Revolution has produced the new state of "Ghana" led by traitorous socialists. Our colonial forces have done their best to suppress the revolt, but to no avail. Meanwhile, our response to this treachery has triggered international condemnation. The French and Americans hypocritically deem us "imperialist", ignoring their own exploitative empires. Reports from Copenhagen indicate a bleak military situation and a complete lack of support from any nation on the world stage.\n\nEven in the Danish Fatherland, support for any action against Ghana is low. The common folk care little to nothing for our Empire, and just wish to keep what remains in India and China. The King believes it is time to begin integrating lands into the kingdom itself, such as Iceland and Greenland. Nevertheless, it seems the era of relative Danish peace is coming to an end."
+  DEN.5.a:0 "Our Empire is Shattering!"
   
   NOR_norwegian_revolution:0 "The Norwegian Revolution"
   ENG_send_volunteers:0 "Organize volunteers"

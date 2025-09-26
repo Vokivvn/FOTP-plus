@@ -6,6 +6,11 @@ spriteTypes = {
 		name = "GFX_report_event_norwegian_independence"
 		texturefile = "gfx/event_pictures/report_event_norwegian_independence.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_report_event_ghana_independence"
+		texturefile = "gfx/event_pictures/report_event_ghana_independence.dds"
+	}
 
 	## England ##
 

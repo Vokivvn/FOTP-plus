@@ -24,6 +24,8 @@ country_event = {
 			transfer_state = 849
 			transfer_state = 882
 			add_state_core = 849
+			transfer_state = 937
+			add_state_core = 937
 			add_state_core = 842
 			add_state_core = 882
 			load_oob = "NOR_1936"
@@ -100,5 +102,24 @@ country_event = { #war
 	option = {
 		name = DEN.4.a
 		white_peace = DEN
+	}
+}
+
+country_event = { #ghana independence
+	id = DEN.5
+	title = DEN.5.t
+	desc = DEN.5.desc
+	picture = GFX_report_event_ghana_independence
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = DEN.5.a
+		hidden_effect = {
+		GHA = {
+			transfer_state = 274
+			add_state_core = 274
+		}
 	}
 }

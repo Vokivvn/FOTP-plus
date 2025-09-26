@@ -264,6 +264,12 @@
  BAV_DEF:0 "The South German General Government"
  
  BAV_ADJ:0 "South German"
+
+  #Ghana
+ GHA:0 "Ghana"
+ GHA_DEF:0 "The Republic of Ghana"
+ 
+ GHA_ADJ:0 "Ghanaian"
  
   #Bosnia
  BOS:0 "Bosnia"
