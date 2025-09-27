@@ -152,6 +152,10 @@ HUN = {
 	color = rgb { 112 103 90 }
 	color_ui = rgb { 112 103 90 }
 }
+HSR = {
+	color = rgb { 109 83 95 }
+	color_ui = rgb { 109 83 95 }
+}
 FCA = {
 	color = rgb { 162 170 179 }
 	color_ui = rgb { 162 170 179 }

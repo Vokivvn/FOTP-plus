@@ -2016,6 +2016,9 @@
  HUN_authoritarianism_ADJ:0 "Hungarian"
  HUN_centralism_ADJ:0 "Hungarian"
  
+ HSR:0 "Hungarian SR"
+ HSR_DEF:0 "Hungarian SR"
+ HSR_ADJ:0 "Hungarian"
  
  #Hyderabad
  HYD_ultranationalism:0 "Hyderabad State"

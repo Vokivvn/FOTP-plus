@@ -401,6 +401,32 @@ country_event = { #intro
 }
 
 country_event = { #intro
+	id = commission.5
+	title = commission.5.t
+	desc = commission.5.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = commission.5.a
+	}
+}
+
+country_event = { #intro
+	id = commission.6
+	title = commission.6.t
+	desc = commission.6.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = commission.6.a
+	}
+}
+
+country_event = { #intro
 	id = commission.35
 	title = commission.35.t
 	desc = commission.35.desc
@@ -555,6 +581,44 @@ country_event = { #intro
 		hidden_effect = {
 			CRO = {
 				transfer_state = 835
+			}
+		}
+	}
+}
+
+country_event = { #intro
+	id = commission.100
+	title = commission.100.t
+	desc = commission.100.desc
+	picture = GFX_report_event_AUS_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = commission.100.a
+		hidden_effect = {
+			SLO = {
+				transfer_state = 664
+				}
+			}
+			HSR = {
+				transfer_state = 43
+				transfer_state = 155
+				set_province_controller = 3565
+				set_province_controller = 6573
+				set_province_controller = 9537
+				declare_war_on = {
+					target = SLO
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = HUN
+					type = annex_everything
+				}
+			}
+			HUN = {
+				transfer_state = 83
+				transfer_state = 1001
 				}
 			}
 		}

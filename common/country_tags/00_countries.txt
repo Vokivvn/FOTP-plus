@@ -175,6 +175,7 @@ DAG = "countries/Dagestan.txt"
 DON = "countries/Don.txt"
 KUB = "countries/Kuban.txt"
 STV = "countries/Stavropol.txt"
+HSR = "countries/Hungarian SR.txt"
 
 ##INDIA##
 AFG = "countries/Afghanistan.txt"
