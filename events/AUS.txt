@@ -393,7 +393,6 @@ country_event = { #intro
 				}
 				set_country_flag = Austria_Croatia_Win
 				set_global_flag = Croatia_Lose
-				country_event = commission.35 {days = 3}
 				}
 			}
 		}
@@ -453,7 +452,7 @@ country_event = { #intro
 	option = {
 		name = commission.39.a
 		hidden_effect = {
-			AUS_proposal_1s_status = yes
+			proposal_1_status = yes
 		}
 	}
 }
@@ -581,6 +580,26 @@ country_event = { #intro
 		hidden_effect = {
 			CRO = {
 				transfer_state = 835
+			}
+		}
+	}
+}
+
+country_event = { #banat coup
+	id = commission.60
+	title = commission.60.t
+	desc = commission.60.desc
+	picture = GFX_report_banat_fascist
+
+	is_triggered_only = yes
+	
+	option = {
+		name = commission.60.a
+		hidden_effect = {
+			BAN = {
+				set_politics = {
+					ruling_party = ultranationalism
+				}
 			}
 		}
 	}

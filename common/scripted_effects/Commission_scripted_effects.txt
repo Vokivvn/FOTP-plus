@@ -1,9 +1,4 @@
 ###Commission
-AUS_proposal_1_for = {
-	set_global_flag = AUS_proposal_1_for
-	add_to_variable = { proposal_1_votes_for = 1 }
-	custom_effect_tooltip = propsal_1_vote
-}
 SOV_proposal_1_for = {
 	set_global_flag = SOV_proposal_1_for
 	country_event = { id = RUS.1 days = 12 }
@@ -12,13 +7,12 @@ SOV_proposal_1_for = {
 }
 USA_proposal_1_for = {
 	set_global_flag = SOV_proposal_1_for
-	country_event = { id = RUS.1 days = 12 }
+	country_event = { id = FRA.1 days = 12 }
 	add_to_variable = { proposal_1_votes = 1 }
 	custom_effect_tooltip = propsal_1_vote
 }
 FRA_proposal_1_for = {
-	set_global_flag = SOV_proposal_1_for
-	country_event = { id = RUS.1 days = 12 }
+	set_global_flag = FRA_proposal_1_for
 	add_to_variable = { proposal_1_votes = 1 }
 	custom_effect_tooltip = propsal_1_vote
 }
@@ -29,12 +23,6 @@ ENG_proposal_1_for = {
 	custom_effect_tooltip = propsal_1_vote
 }
 
-AUS_proposal_1_no = {
-	set_global_flag = AUS_proposal_1_against
-	country_event = { id = RUS.1 days = 12 }
-	add_to_variable = { proposal_1_votes_against = 1 }
-	custom_effect_tooltip = propsal_1_vote
-}
 SOV_proposal_1_no = {
 	set_global_flag = SOV_proposal_1_against
 	country_event = { id = RUS.1 days = 12 }
@@ -60,13 +48,17 @@ ENG_proposal_1_no = {
 	custom_effect_tooltip = propsal_1_vote
 }
 
-AUS_proposal_1s_status = {
+proposal_1_status = {
 	if = { #Proposal 1 succeeds
 		limit = {
-			AND = {
-				check_variable = { proposal_1_votes_for > proposal_1_votes_against }
-			}
+			check_variable = { proposal_1_votes_for > proposal_1_votes_against }
 		}
-		set_global_flag = Proposal_1_Succeeds
+		set_global_flag = Proposal_1_succeeds
+	}
+	else_if = { #Proposal 1 fails
+		limit = {
+			check_variable = { proposal_1_votes_for < proposal_1_votes_against }
+		}
+		set_global_flag = Proposal_1_fails
 	}
 }

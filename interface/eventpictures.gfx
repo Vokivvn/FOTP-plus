@@ -2441,4 +2441,8 @@ spriteTypes = {
 		name = "GFX_report_triumvirate_breaks_up"
 		texturefile = "gfx/event_pictures/GFX_report_triumvirate_breaks_up.dds"
 	}
+	spriteType = {
+		name = "GFX_report_banat_fascist"
+		texturefile = "gfx/event_pictures/GFX_report_banat_fascist.dds"
+	}
 }

@@ -180,7 +180,7 @@ HSR = "countries/Hungarian SR.txt"
 ##INDIA##
 AFG = "countries/Afghanistan.txt"
 ARA = "countries/Arakan.txt"
-BAN = "countries/Bangladesh.txt"
+BAN = "countries/Banat.txt"
 BHU = "countries/Bhutan.txt"
 BRM = "countries/Burma.txt"
 CAL = "countries/Calcutta.txt"

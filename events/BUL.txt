@@ -1,0 +1,38 @@
+﻿add_namespace = BUL
+
+country_event = { #intro
+	id = BUL.0
+	title = BUL.0.t
+	desc = BUL.0.desc
+	picture = GFX_report_event_BUL_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = BUL.0.a
+	}
+}
+
+country_event = { #a walk in Wien
+	id = BUL.38
+	title = BUL.38.t
+	desc = BUL.38.desc
+	picture = GFX_report_event_BUL_start_vienna
+
+	is_triggered_only = yes
+	
+	option = {
+		name = BUL.38.a
+		hidden_effect = {
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Boris III"
+			desc = "POLITICS_Eduard_von_Bohm_Ermolli_DESC"
+			picture = "Leader_BUL_Boris_III.dds"
+			expire = "1965.1.1"
+			ideology = conservatism_subtype
+			traits = {
+			}
+		}
+	}
+}
