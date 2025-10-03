@@ -1948,6 +1948,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_AUS_the_austrian_winter.dds"
 	}
 	SpriteType = { 
+		name = "GFX_AUS_purge_them"
+		texturefile = "gfx/interface/goals/GFX_AUS_purge_socialists.dds"
+	}
+	SpriteType = { 
 		name = "GFX_AUS_the_bohemia_dilemma"
 		texturefile = "gfx/interface/goals/GFX_AUS_the_bohemia_dilemma.dds"
 	}
