@@ -1948,8 +1948,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_AUS_the_austrian_winter.dds"
 	}
 	SpriteType = { 
+		name = "GFX_AUS_socialist_question"
+		texturefile = "gfx/interface/goals/GFX_AUS_socialist_question.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_sideline_them"
+		texturefile = "gfx/interface/goals/GFX_AUS_sideline_them.dds"
+	}
+	SpriteType = { 
 		name = "GFX_AUS_purge_them"
 		texturefile = "gfx/interface/goals/GFX_AUS_purge_socialists.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_carry_onwards"
+		texturefile = "gfx/interface/goals/GFX_AUS_carry_onwards.dds"
 	}
 	SpriteType = { 
 		name = "GFX_AUS_the_bohemia_dilemma"
@@ -2357,5 +2369,37 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_USA_focus_Parallels_to_the_Past"
 		texturefile = "gfx/interface/goals/GFX_USA_focus_Parallels_to_the_Past.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_the_sacred_war"
+		texturefile = "gfx/interface/goals/GFX_UKR_the_sacred_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_spread_the_revolution"
+		texturefile = "gfx/interface/goals/GFX_UKR_spread_the_revolution.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_a_socialist_government"
+		texturefile = "gfx/interface/goals/GFX_UKR_a_socialist_government.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_honorable_leaders"
+		texturefile = "gfx/interface/goals/GFX_UKR_honorable_leaders.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_a_human_face"
+		texturefile = "gfx/interface/goals/GFX_UKR_a_human_face.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_partisan_tactics"
+		texturefile = "gfx/interface/goals/GFX_UKR_partisan_tactics.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_the_followers_of_engels"
+		texturefile = "gfx/interface/goals/GFX_UKR_the_followers_of_engels.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_raise_the_red_flag"
+		texturefile = "gfx/interface/goals/GFX_UKR_raise_the_red_flag.dds"
 	}
 }

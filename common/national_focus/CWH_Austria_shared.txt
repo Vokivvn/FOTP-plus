@@ -16,7 +16,7 @@ shared_focus = {
 }
 shared_focus = {
 	id =  AUS_the_socialist_question
-	icon = GFX_AUS_the_socialist_question
+	icon = GFX_AUS_socialist_question
 	cost = 4.00
 
 	prerequisite = {

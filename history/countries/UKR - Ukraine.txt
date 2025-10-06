@@ -4,7 +4,7 @@ set_variable = { country_infamy = 16 }
 
 set_research_slots = 3
 
-load_focus_tree = generic_focus
+load_focus_tree = UKR_Intro
 
 add_ideas = {
 	limited_conscription

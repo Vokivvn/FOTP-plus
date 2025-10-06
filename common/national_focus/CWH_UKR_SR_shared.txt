@@ -1,0 +1,152 @@
+#intro tree
+shared_focus = {
+	id =  UKR_the_sacred_war
+	icon = GFX_UKR_the_sacred_war
+	cost = 2.00
+	
+	x = 5
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_the_sacred_war"
+		country_event = {
+			id = UKR.1
+		}
+	}
+}
+shared_focus = {
+	id =  UKR_spread_the_revolution
+	icon = GFX_UKR_spread_the_revolution
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_the_sacred_war
+	}
+	
+	x = 4
+	y = 1
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_spread_the_revolution"
+		country_event = {
+			id = UKR.1
+		}
+	}
+}
+shared_focus = {
+	id =  UKR_win_the_war
+	icon = GFX_UKR_a_socialist_government
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_the_sacred_war
+	}
+	
+	x = 6
+	y = 1
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_win_the_war"
+		country_event = {
+			id = UKR.1
+		}
+	}
+}
+shared_focus = {
+	id =  UKR_honorable_leaders
+	icon = GFX_UKR_honorable_leaders
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_spread_the_revolution
+	}
+	
+	x = 3
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_honorable_leaders"
+		country_event = {
+			id = UKR.1
+		}
+	}
+}
+shared_focus = {
+	id =  UKR_bleed_them_dry
+	icon = GFX_UKR_a_human_face
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_win_the_war
+	}
+	
+	x = 7
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_bleed_them_dry"
+		country_event = {
+			id = UKR.1
+		}
+	}
+}
+shared_focus = {
+	id =  UKR_win_again
+	icon = GFX_UKR_partisan_tactics
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_honorable_leaders
+	}
+	
+	x = 3
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_win_again"
+		country_event = {
+			id = UKR.1
+		}
+	}
+}
+shared_focus = {
+	id =  UKR_keep_winning
+	icon = GFX_UKR_the_followers_of_engels
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_bleed_them_dry
+	}
+	
+	x = 7
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_keep_winning"
+		country_event = {
+			id = UKR.1
+		}
+	}
+}
+shared_focus = {
+	id =  UKR_for_the_red_flag
+	icon = GFX_UKR_raise_the_red_flag
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_win_again
+	}
+	prerequisite = {
+		focus = UKR_keep_winning
+	}
+	
+	x = 5
+	y = 4
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_for_the_red_flag"
+		country_event = {
+			id = UKR.1
+		}
+	}
+}
