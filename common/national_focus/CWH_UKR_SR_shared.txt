@@ -12,6 +12,8 @@ shared_focus = {
 		country_event = {
 			id = UKR.1
 		}
+		add_ideas = UKR_sacred_war
+		add_war_support = 0.1
 	}
 }
 shared_focus = {
@@ -30,6 +32,12 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: focus UKR_spread_the_revolution"
 		country_event = {
 			id = UKR.1
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 2500
+			producer = POL
+			army_experience = 50
 		}
 	}
 }
@@ -50,6 +58,7 @@ shared_focus = {
 		country_event = {
 			id = UKR.1
 		}
+		add_political_power = 100
 	}
 }
 shared_focus = {
@@ -69,6 +78,7 @@ shared_focus = {
 		country_event = {
 			id = UKR.1
 		}
+		#add generals
 	}
 }
 shared_focus = {
@@ -88,6 +98,7 @@ shared_focus = {
 		country_event = {
 			id = UKR.1
 		}
+		add_war_support = 0.1
 	}
 }
 shared_focus = {
@@ -107,6 +118,7 @@ shared_focus = {
 		country_event = {
 			id = UKR.1
 		}
+		add_ideas = UKR_partisan_tactics
 	}
 }
 shared_focus = {
