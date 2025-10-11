@@ -90,6 +90,26 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Vladimir Antonov-Ovseenko"
+	picture = "Leader_UKR_Vladimir_Antonov_Ovseenko.dds"
+	skill = 4
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Mikhail Kirponos"
+	picture = "Leader_UKR_Mikhail_Kirponos.dds"
+	skill = 4
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
 #declare_war_on = {
 #    target = LIT
 #    type = annex_everything

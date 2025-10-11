@@ -58,7 +58,7 @@ shared_focus = {
 		country_event = {
 			id = UKR.1
 		}
-		add_political_power = 100
+		add_political_power = 25
 	}
 }
 shared_focus = {
@@ -138,6 +138,14 @@ shared_focus = {
 		country_event = {
 			id = UKR.1
 		}
+		add_popularity = {
+			ideology = centralism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.05
+		}
 	}
 }
 shared_focus = {
@@ -160,5 +168,312 @@ shared_focus = {
 		country_event = {
 			id = UKR.1
 		}
+		add_manpower = 10000
+		hidden_effect = {
+			load_focus_tree = UKR_Main
+		}
+	}
+}
+
+shared_focus = {
+	id =  UKR_the_socialist_revolution
+	icon = GFX_UKR_the_socialist_revolution
+	cost = 2.00
+	
+	x = 5
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_the_socialist_revolution"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id =  UKR_a_three_year_plan
+	icon = GFX_UKR_a_three_year_plan
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_the_socialist_revolution
+	}
+	
+	x = 0
+	y = 1
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_a_three_year_plan"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id =  UKR_the_red_army
+	icon = GFX_UKR_the_red_army
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_the_socialist_revolution
+	}
+	
+	x = 5
+	y = 1
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_the_red_army"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id =  UKR_the_united_front
+	icon = GFX_UKR_the_united_front
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_the_socialist_revolution
+	}
+	
+	x = 10
+	y = 1
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_the_united_front"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id =  UKR_collective_economy
+	icon = GFX_UKR_collective_economy
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_a_three_year_plan
+	}
+	
+	x = -1
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_collective_economy"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id =  UKR_socialist_unions
+	icon = GFX_UKR_socialist_unions
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_a_three_year_plan
+	}
+	
+	x = 1
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_socialist_unions"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id =  UKR_the_old_guard
+	icon = GFX_UKR_the_old_guard
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_the_red_army
+	}
+	
+	x = 4
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_the_old_guard"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id =  UKR_the_new_leaders
+	icon = GFX_UKR_the_new_leaders
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_the_red_army
+	}
+	
+	x = 6
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_the_new_leaders"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id =  UKR_the_left_holds
+	icon = GFX_UKR_the_left_holds
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_the_united_front
+	}
+	
+	x = 9
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_the_left_holds"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id =  UKR_a_turn_right
+	icon = GFX_UKR_a_turn_right
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_the_united_front
+	}
+	
+	x = 11
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_a_turn_right"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id =  UKR_workers_paradise
+	icon = GFX_UKR_workers_paradise
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_collective_economy
+	}
+	prerequisite = {
+		focus = UKR_socialist_unions
+	}
+	
+	x = 0
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_workers_paradise"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id =  UKR_soldiers_and_partisans
+	icon = GFX_UKR_soldiers_and_partisans
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_the_old_guard
+		focus = UKR_the_new_leaders
+	}
+	
+	x = 5
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_soldiers_and_partisans"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id =  UKR_a_proletarian_government
+	icon = GFX_UKR_a_proletarian_government
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_the_left_holds
+		focus = UKR_a_turn_right
+	}
+	
+	x = 10
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_a_proletarian_government"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
+	}
+}
+
+shared_focus = {
+	id =  UKR_a_revolution_for_all
+	icon = GFX_UKR_a_revolution_for_all
+	cost = 2.00
+	
+	prerequisite = {
+		focus = UKR_workers_paradise
+	}
+	
+	prerequisite = {
+		focus = UKR_soldiers_and_partisans
+	}
+	
+	prerequisite = {
+		focus = UKR_a_proletarian_government
+	}
+	
+	x = 5
+	y = 4
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus UKR_a_proletarian_government"
+		country_event = {
+			id = UKR.1
+		}
+		add_manpower = 10000
 	}
 }

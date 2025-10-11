@@ -11,3 +11,16 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1800 }
 	shared_focus = UKR_the_sacred_war
 }
+focus_tree = {
+	id = UKR_Main
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UKR
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1800 }
+	shared_focus = UKR_the_socialist_revolution
+}
