@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		AUS_the_father_of_europe = {
+		AUS_the_missing_election = {
 	
 				allowed = {
 					always = no
@@ -17,7 +17,7 @@ ideas = {
 				}
 		}
 		
-		AUS_the_nostalgic_empire = {
+		AUS_where_romantics_go_to_die = {
 	
 				allowed = {
 					always = no
@@ -51,7 +51,7 @@ ideas = {
 			}
 		}
 		
-		AUS_right_unity = {
+		AUS_commission_crises = {
 	
 				allowed = {
 					always = no
@@ -68,7 +68,7 @@ ideas = {
 				}
 		}
 		
-		AUS_the_time_for_liberation = {
+		AUS_red_vienna = {
 	
 				allowed = {
 					always = no

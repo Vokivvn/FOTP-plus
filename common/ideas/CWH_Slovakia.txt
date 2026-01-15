@@ -1,0 +1,36 @@
+ideas = {
+	country = {
+		SLO_fragile_republic = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_father_of_europe
+
+				modifier = {
+					stability_factor = 0.10 
+					max_command_power = 10 
+					consumer_goods_factor = -0.05
+				}
+		}
+		SLO_revanchist_sentiment = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_nostalgic_empire
+
+				modifier = {
+					non_core_manpower = 0.02 
+					army_core_defence_factor = 0.1 
+					planning_speed = -0.10 
+				}
+		}
+	}
+}
