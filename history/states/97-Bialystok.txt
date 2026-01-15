@@ -1,0 +1,45 @@
+
+state={
+	id=97
+	name="STATE_97"
+
+	history={
+		owner = POL
+		victory_points = {
+			11301 3 
+		}
+		victory_points = {
+			3393 3 
+		}
+		victory_points = {
+			3254 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = POL
+		add_core_of = LIT
+		1936.1.1 = {
+			BLR = {
+				set_province_controller = 318
+				set_province_controller = 13206
+				set_province_controller = 347
+				set_province_controller = 400
+				set_province_controller = 11301
+				set_province_controller = 3254
+				set_province_controller = 11329
+				set_province_controller = 11274
+			}
+		}
+	}
+
+	provinces={
+		290 318 347 400 3254 3281 11247 11274 11301 11329 11357 13206 
+	}
+	manpower=1157200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

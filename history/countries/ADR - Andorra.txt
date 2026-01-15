@@ -1,0 +1,35 @@
+﻿capital = 938
+set_variable = { country_infamy = 0 } 
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+}
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	authoritarianism = 100
+}
+
+set_convoys = 5
+
+create_country_leader = {
+	name = "Justí Guitart i Vilardebó"
+	desc = "POLITICS_Justi_Guitart_i_Vilardebo_DESC"
+	picture = "Portrait_ADR_Justi_Guitart_i_Vilardebo.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		#
+	}
+}
